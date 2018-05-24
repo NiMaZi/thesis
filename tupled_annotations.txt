@@ -1,0 +1,766 @@
+total: 382
+
+(u'http://purl.obolibrary.org/obo/MONDO_0005105', u'melanoma (disease)', [u'Malignant Melanoma', u'malignant melanoma', u'Melanoma', u'MELANOMA, MALIGNANT', u'Naevocarcinoma', u'melanoma'], u'http://data.bioontology.org/ontologies/MONDO', u'Monarch Disease Ontology', u'MONDO', [(u'MELANOMA', u'SYN', 1, 8)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#C04.557.580.625.650.510', u'Melanoma', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/NDFRT/N0000001969', u'Melanoma [Disease/Finding]', [u'Malignant Melanoma', u'Melanoma'], u'http://data.bioontology.org/ontologies/NDFRT', u'National Drug File - Reference Terminology', u'NDFRT', [(u'MELANOMA', u'SYN', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/DERMO_0000970', u'melanoma', [], u'http://data.bioontology.org/ontologies/DERMO', u'Human Dermatological Disease Ontology', u'DERMO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/ICPC2P/S77003', u'melanoma', [u'Melanoma'], u'http://data.bioontology.org/ontologies/ICPC2P', u'International Classification of Primary Care - 2 PLUS', u'ICPC2P', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LA14279-6', u'Melanoma', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.semanticweb.org/ontologies/2012/11/abnormalities.owl#phenodb:2536', u'Melanoma', [], u'http://data.bioontology.org/ontologies/IFAR', u'Fanconi Anemia Ontology', u'IFAR', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Melanoma', u'Melanoma', [], u'http://data.bioontology.org/ontologies/CSEO', u'Cigarette Smoke Exposure Ontology', u'CSEO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.gamuts.net/entity#melanoma', u'melanoma', [u'malignant melanoma'], u'http://data.bioontology.org/ontologies/GAMUTS', u'Radiology Gamuts Ontology', u'GAMUTS', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#C04.557.665.510', u'Melanoma', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.semanticweb.org/pallabi.d/ontologies/2014/2/untitled-ontology-11#Melanoma', u'Melanoma', [], u'http://data.bioontology.org/ontologies/MCCL', u'Cell Line Ontology [by Mahadevan]', u'MCCL', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.limics.org/hrdo/rdfns#sgn_id_50780', u'Melanoma', [], u'http://data.bioontology.org/ontologies/HRDO', u'Disease core ontology applied to Rare Diseases', u'HRDO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/PDQ/CDR0000038833', u'melanoma', [u'Skin cancer, melanoma', u'melanoma, cutaneous', u'cutaneous melanoma'], u'http://data.bioontology.org/ontologies/PDQ', u'Physician Data Query', u'PDQ', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.bioontology.org/pma.owl#PMA_1619', u'Melanoma', [], u'http://data.bioontology.org/ontologies/PMA', u'Portfolio Management Application', u'PMA', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000756', u'melanoma', [], u'http://data.bioontology.org/ontologies/CCONT', u'Cell Culture Ontology', u'CCONT', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000756', u'melanoma', [u'malignant melanoma (disorder)', u'Malignant Melanoma', u'malignant melanoma NOS (morphologic abnormality)', u'Melanoma, NOS', u'[M]Malignant melanoma NOS (morphologic abnormality)', u'Melanosarcoma', u'Melanoma, Malignant', u'Melanomas', u'Malignant Melanomas', u'Naevocarcinoma', u'Malignant melanoma, morphology (morphologic abnormality)', u'Malignant melanoma, no ICD-O subtype (morphologic abnormality)', u'Melanomas, Malignant', u'Malignant melanoma (morphologic abnormality)', u'MM - Malignant melanoma', u'Malignant melanoma, no ICD-O subtype', u'[M]Malignant melanoma NOS', u'Malignant melanoma, NOS'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.radlex.org/RID/#RID34617', u'melanoma', [], u'http://data.bioontology.org/ontologies/RADLEX', u'Radiology Lexicon', u'RADLEX', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/CSP/2020-2434', u'melanoma', [], u'http://data.bioontology.org/ontologies/CRISP', u'Computer Retrieval of Information on Scientific Projects Thesaurus', u'CRISP', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/2092003', u'Malignant melanoma', [u'Malignant melanoma, no International Classification of Diseases for Oncology subtype', u'Malignant melanoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality)', u'Melanoma', u'Malignant melanoma, no ICD-O subtype', u'MM - Malignant melanoma'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'MELANOMA', u'SYN', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/OMIM/MTHU000127', u'Melanoma', [], u'http://data.bioontology.org/ontologies/OMIM', u'Online Mendelian Inheritance in Man', u'OMIM', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/DOID_1909', u'melanoma', [u'malignant melanoma', u'Naevocarcinoma'], u'http://data.bioontology.org/ontologies/PDRO', u'The Prescription of Drugs Ontology', u'PDRO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/DOID_1909', u'melanoma', [u'malignant melanoma', u'Naevocarcinoma'], u'http://data.bioontology.org/ontologies/DOID', u'Human Disease Ontology', u'DOID', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/DOID_1909', u'melanoma', [u'malignant melanoma', u'Naevocarcinoma'], u'http://data.bioontology.org/ontologies/VO', u'Vaccine Ontology', u'VO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/DOID_1909', u'melanoma', [], u'http://data.bioontology.org/ontologies/CLO', u'Cell Line Ontology', u'CLO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/DOID_1909', u'melanoma', [u'malignant melanoma', u'Naevocarcinoma'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/DOID_1909', u'melanoma', [], u'http://data.bioontology.org/ontologies/DTO', u'Drug Target Ontology', u'DTO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/DOID_1909', u'melanoma', [u'malignant melanoma', u'Naevocarcinoma'], u'http://data.bioontology.org/ontologies/BAO', u'BioAssay Ontology', u'BAO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/MEDLINEPLUS/C0025202', u'Melanoma', [], u'http://data.bioontology.org/ontologies/MEDLINEPLUS', u'MedlinePlus Health Topics', u'MEDLINEPLUS', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#D008545', u'Melanoma', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/EFO_0000756', u'EFO_0000756', [], u'http://data.bioontology.org/ontologies/MONDO', u'Monarch Disease Ontology', u'MONDO', [(u'MELANOMA', u'SYN', 1, 8)])
+
+(u'http://www.owl-ontologies.com/NPOntology.owl#DOID_1909', u'melanoma', [], u'http://data.bioontology.org/ontologies/NATPRO', u'Natural Products Ontology', u'NATPRO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://id.loc.gov/authorities/subjects/sh85083381', u'Melanoma', [], u'http://data.bioontology.org/ontologies/FAST-TOPICAL', u'FAST (Faceted Application of Subject Terminology) Topical Facet', u'FAST-TOPICAL', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://scai.fraunhofer.de/CSEO#Melanoma', u'Melanoma', [], u'http://data.bioontology.org/ontologies/CSEO', u'Cigarette Smoke Exposure Ontology', u'CSEO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/MEDDRA/10053571', u'Melanoma', [], u'http://data.bioontology.org/ontologies/MEDDRA', u'Medical Dictionary for Regulatory Activities', u'MEDDRA', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/HP_0002861', u'Melanoma', [], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/HP_0002861', u'Melanoma', [], u'http://data.bioontology.org/ontologies/UPHENO', u'Combined Phenotype Ontology', u'UPHENO', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.obolibrary.org/obo/HP_0002861', u'Melanoma', [u'Skin cancer (melanoma)', u'Malignant melanoma'], u'http://data.bioontology.org/ontologies/HP', u'Human Phenotype Ontology', u'HP', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#C04.557.465.625.650.510', u'Melanoma', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/HL7/C0796561', u'melanoma', [], u'http://data.bioontology.org/ontologies/HL7', u'Health Level Seven Reference Implementation Model, Version 3', u'HL7', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://www.co-ode.org/ontologies/galen#Melanoma', u'Melanoma', [], u'http://data.bioontology.org/ontologies/GALEN', u'Galen Ontology', u'GALEN', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3224', u'Melanoma', [u'Malignant Melanoma', u'melanoma', u'MELANOMA, MALIGNANT', u'Melanoma'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C103113', u'NCI CTEP SDC Melanoma Sub-Category Terminology', [u'NCI CTEP SDC Melanoma Sub-Category Terminology', u'NCI CTEP Simple Disease Classification Melanoma Sub-Category Terminology', u'Melanoma'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'MELANOMA', u'SYN', 1, 8)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91477', u'Melanoma Pathway', [u'Melanoma Pathway', u'Melanoma'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'MELANOMA', u'SYN', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/MESH/D008545', u'Melanoma', [u'Malignant Melanoma', u'Melanomas, Malignant', u'Melanomas', u'Malignant Melanomas', u'Melanoma, Malignant'], u'http://data.bioontology.org/ontologies/MESH', u'Medical Subject Headings', u'MESH', [(u'MELANOMA', u'PREF', 1, 8)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/116680003', u'Is a', [u'Is a (attribute)'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'IS A', u'PREF', 10, 13)])
+
+(u'http://purl.obolibrary.org/obo/DOID_162', u'cancer', [u'malignant tumor ', u'malignant neoplasm', u'primary cancer'], u'http://data.bioontology.org/ontologies/PDRO', u'The Prescription of Drugs Ontology', u'PDRO', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://purl.obolibrary.org/obo/DOID_162', u'cancer', [u'malignant tumor ', u'malignant neoplasm', u'primary cancer'], u'http://data.bioontology.org/ontologies/OBIB', u'Ontology for Biobanking', u'OBIB', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://purl.obolibrary.org/obo/DOID_162', u'cancer', [u'malignant tumor ', u'malignant neoplasm', u'primary cancer'], u'http://data.bioontology.org/ontologies/DOID', u'Human Disease Ontology', u'DOID', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://purl.obolibrary.org/obo/DOID_162', u'cancer', [u'malignant tumor ', u'malignant neoplasm', u'primary cancer'], u'http://data.bioontology.org/ontologies/VO', u'Vaccine Ontology', u'VO', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://purl.obolibrary.org/obo/DOID_162', u'cancer', [u'malignant tumor ', u'malignant neoplasm', u'primary cancer'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://purl.obolibrary.org/obo/DOID_162', u'cancer', [u'malignant tumor ', u'malignant neoplasm', u'primary cancer'], u'http://data.bioontology.org/ontologies/OHMI', u'Ontology of Host-Microbe Interactions', u'OHMI', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://purl.obolibrary.org/obo/DOID_162', u'cancer', [u'malignant tumor ', u'malignant neoplasm', u'primary cancer'], u'http://data.bioontology.org/ontologies/VICO', u'Vaccination Informed Consent Ontology', u'VICO', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://purl.obolibrary.org/obo/DOID_162', u'cancer', [u'malignant tumor ', u'malignant neoplasm', u'primary cancer'], u'http://data.bioontology.org/ontologies/BAO', u'BioAssay Ontology', u'BAO', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://purl.org/obo/owl/DOID#DOID_162', u'cancer', [u'primary cancer', u'malignant neoplasm', u'malignant tumor ', u'cancers'], u'http://data.bioontology.org/ontologies/HUPSON', u'Human Physiology Simulation Ontology', u'HUPSON', [(u'MALIGNANT TUMOR ', u'SYN', 15, 30)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000311', u'cancer', [u'Malignant Neoplasm', u'malignant neoplasia', u'malignant tumor', u'malignant tumour'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'MALIGNANT TUMOR', u'SYN', 15, 29)])
+
+(u'http://purl.bioontology.org/ontology/MEDDRA/10049516', u'Malignant tumor', [], u'http://data.bioontology.org/ontologies/MEDDRA', u'Medical Dictionary for Regulatory Activities', u'MEDDRA', [(u'MALIGNANT TUMOR', u'PREF', 15, 29)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C9305', u'Malignant Neoplasm', [u'CA', u'Cancer', u'Malignant Neoplasm', u'NEOPLASM, MALIGNANT', u'Malignant Tumor', u'Malignant Growth', u'Malignant Neoplastic Disease', u'malignancy', u'Malignancy', u'cancer'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'MALIGNANT TUMOR', u'SYN', 15, 29)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/363346000', u'Malignant neoplastic disease', [u'Malignant neoplastic disease (disorder)', u'Cancer', u'Malignant tumour', u'Malignant tumor', u'Malignant neoplasm', u'CA - Cancer'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'MALIGNANT TUMOR', u'SYN', 15, 29)])
+
+(u'http://scdontology.h3abionet.org/ontology/SCDO_0000180', u'Cancer', [u'Malignant Neoplasm', u'Malignant Tumor', u'Oncology', u'Malignancy', u'Malignant Neoplasia', u'Malignant Tumour'], u'http://data.bioontology.org/ontologies/SCDO', u'Sickle Cell Disease Ontology', u'SCDO', [(u'MALIGNANT TUMOR', u'SYN', 15, 29)])
+
+(u'http://purl.obolibrary.org/obo/EFO_0000311', u'EFO_0000311', [], u'http://data.bioontology.org/ontologies/MONDO', u'Monarch Disease Ontology', u'MONDO', [(u'MALIGNANT TUMOR', u'SYN', 15, 29)])
+
+(u'http://purl.obolibrary.org/obo/MONDO_0004992', u'cancer', [u'Malignant Growth', u'Malignant Neoplastic Disease', u'malignancy', u'Malignant Tumor', u'NEOPLASM, MALIGNANT', u'malignant neoplasm', u'Malignant Neoplasm', u'primary cancer', u'Cancer', u'organ system cancer', u'malignant tumor', u'cancer', u'Malignancy', u'cell type cancer'], u'http://data.bioontology.org/ontologies/MONDO', u'Monarch Disease Ontology', u'MONDO', [(u'MALIGNANT TUMOR', u'SYN', 15, 29)])
+
+(u'http://www.radlex.org/RID/#RID15655', u'malignant', [], u'http://data.bioontology.org/ontologies/RADLEX', u'Radiology Lexicon', u'RADLEX', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant', u'Malignant', [], u'http://data.bioontology.org/ontologies/CSEO', u'Cigarette Smoke Exposure Ontology', u'CSEO', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://purl.bioontology.org/ontology/RCD/X78wJ', u'Malignant', [], u'http://data.bioontology.org/ontologies/RCD', u'Read Codes, Clinical Terms Version 3 (CTV3) ', u'RCD', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14143', u'Malignant', [u'Malignant', u'MALIGNANT', u'malignant'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://purl.bioontology.org/ontology/SNMI/G-A425', u'Malignant', [], u'http://data.bioontology.org/ontologies/SNMI', u'Systematized Nomenclature of Medicine, International Version', u'SNMI', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/21594007', u'Malignant', [u'Malignant (qualifier value)'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0006851', u'malignant', [], u'http://data.bioontology.org/ontologies/CCONT', u'Cell Culture Ontology', u'CCONT', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0006851', u'malignant', [], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://www.co-ode.org/ontologies/galen#malignant', u'malignant', [], u'http://data.bioontology.org/ontologies/GALEN', u'Galen Ontology', u'GALEN', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP100607-3', u'Malignant', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'MALIGNANT', u'PREF', 15, 23)])
+
+(u'http://purl.bioontology.org/ontology/MESH/D009369', u'Neoplasms', [u'Benign Neoplasms', u'Tumors', u'Neoplasm', u'Benign Neoplasm', u'Malignancies', u'Cancer', u'Cancers', u'Neoplasm, Benign', u'Neoplasias', u'Neoplasms, Benign', u'Neoplasia', u'Tumor', u'Malignancy'], u'http://data.bioontology.org/ontologies/MESH', u'Medical Subject Headings', u'MESH', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/npo#NPO_1573', u'tumor', [u'neoplasm'], u'http://data.bioontology.org/ontologies/NPO', u'NanoParticle Ontology', u'NPO', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://www.neomark.eu/ontologies/Tumor', u'Tumor', [], u'http://data.bioontology.org/ontologies/NEOMARK3', u'Neomark Oral Cancer Ontology, version 3', u'NEOMARK3', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://www.projecthalo.com/aura#Tumor', u'Tumor', [], u'http://data.bioontology.org/ontologies/AURA', u'KB_Bio_101', u'AURA', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://www.radlex.org/RID/#RID3957', u'neoplasm', [u'tumor', u'Neoplasma'], u'http://data.bioontology.org/ontologies/RADLEX', u'Radiology Lexicon', u'RADLEX', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/CSP/2000-0173', u'neoplasm/cancer', [u'benign state', u'tumor', u'cancer', u'malignant state'], u'http://data.bioontology.org/ontologies/CRISP', u'Computer Retrieval of Information on Scientific Projects Thesaurus', u'CRISP', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C98275', u'Tumor Mass', [u'Tumor Mass', u'Tumor'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://www.gamuts.net/entity#tumor', u'tumor', [], u'http://data.bioontology.org/ontologies/GAMUTS', u'Radiology Gamuts Ontology', u'GAMUTS', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://purl.obolibrary.org/obo/ID_0000021', u'Tumor', [], u'http://data.bioontology.org/ontologies/CANONT', u'Upper-Level Cancer Ontology ', u'CANONT', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LA16304-0', u'Tumor', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://neuromorpho.org/ontologies/experimentconditionH.owl#NMOOt_612', u'Tumor', [], u'http://data.bioontology.org/ontologies/NMOBR', u'NeuroMorpho.Org brain region ontologies', u'NMOBR', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000616', u'neoplasm', [u'Tumors', u'NEOPL', u'tumour', u'Neoplastic Growth', u'NEOPLASMS BENIGN, MALIGNANT AND UNSPECIFIED (INCL CYSTS AND POLYPS)', u'Neoplasms', u'Tumor', u'Neoplasia', u'tumours'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000616', u'tumour', [u'tumors', u'neoplasm', u'tumor', u'tumours'], u'http://data.bioontology.org/ontologies/HUPSON', u'Human Physiology Simulation Ontology', u'HUPSON', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/MTHMST/MT160013', u'Tumor', [], u'http://data.bioontology.org/ontologies/MSTDE-FRE', u'Minimal Standard Terminology of Digestive Endoscopy, French', u'MSTDE-FRE', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/MTHMST/MT160013', u'Tumor', [], u'http://data.bioontology.org/ontologies/MSTDE', u'Minimal Standard Terminology of Digestive Endoscopy', u'MSTDE', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/108369006', u'Neoplasm', [u'Tumour', u'Neoplasm (morphologic abnormality)', u'Tumor'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/LNC/MTHU010346', u'Tumor', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP7664-8', u'Tumor', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://purl.obolibrary.org/obo/HP_0002664', u'Neoplasm', [u'Oncology', u'Tumour', u'Cancer', u'Oncological abnormality', u'Tumor', u'Neoplasia'], u'http://data.bioontology.org/ontologies/HP', u'Human Phenotype Ontology', u'HP', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3262', u'Neoplasm', [u'neoplasia', u'neoplasm', u'Other Neoplasm', u'Neoplasm', u'tumor', u'Neoplastic Disease', u'Neoplasia', u'Neoplastic Growth'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://www.semanticweb.org/rjyy/ontologies/2015/5/ESSO#Tumor', u'Tumor', [], u'http://data.bioontology.org/ontologies/ESSO', u'Epilepsy Syndrome Seizure Ontology', u'ESSO', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://www.stanford.edu/~coulet/phare.owl#Cancer', u'tumor', [], u'http://data.bioontology.org/ontologies/PHARE', u'Pharmacogenomic Relationships Ontology', u'PHARE', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://purl.obolibrary.org/obo/MONDO_0005070', u'neoplasm (disease)', [u'Neoplasm', u'Neoplastic Disease', u'cell process disease', u'tumor', u'Other Neoplasm', u'neoplasm', u'neoplasia', u'disease of cellular proliferation', u'Neoplastic Growth', u'Neoplasia'], u'http://data.bioontology.org/ontologies/MONDO', u'Monarch Disease Ontology', u'MONDO', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP207120-9', u'Tumor', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'TUMOR', u'PREF', 25, 29)])
+
+(u'http://purl.bioontology.org/ontology/MEDLINEPLUS/C0027651', u'Neoplasms', [u'Tumor'], u'http://data.bioontology.org/ontologies/MEDLINEPLUS', u'MedlinePlus Health Topics', u'MEDLINEPLUS', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://purl.jp/bio/11/csso/CSSO_000172', u'Neoplasm', [u'Tumour', u'\u65b0\u751f\u7269', u'Neoplasms', u'Tumor'], u'http://data.bioontology.org/ontologies/CSSO', u'Clinical Signs and Symptoms Ontology', u'CSSO', [(u'TUMOR', u'SYN', 25, 29)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#D008544', u'Melanocytes', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'MELANOCYTES', u'PREF', 34, 44)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#A11.436.613', u'Melanocytes', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'MELANOCYTES', u'PREF', 34, 44)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12591', u'Melanocyte', [u'melanocyte', u'Melanocytes', u'Melanocyte'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'MELANOCYTES', u'SYN', 34, 44)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C23525', u'Murine Melanocytes', [u'Melanocytes', u'Murine Melanocytes'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'MELANOCYTES', u'SYN', 34, 44)])
+
+(u'http://purl.bioontology.org/ontology/MESH/D008544', u'Melanocytes', [u'Melanocyte'], u'http://data.bioontology.org/ontologies/MESH', u'Medical Subject Headings', u'MESH', [(u'MELANOCYTES', u'PREF', 34, 44)])
+
+(u'http://localhost/plosthes.2017-1#10475', u'Melanocytes', [], u'http://data.bioontology.org/ontologies/PLOSTHES', u'PLOS Thesaurus', u'PLOSTHES', [(u'MELANOCYTES', u'PREF', 34, 44)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25626', u'Present', [u'Present', u'In', u'PRESENT', u'Presence', u'Found'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'FOUND', u'SYN', 56, 60)])
+
+(u'http://purl.obolibrary.org/obo/OGG_3000210998', u'D15Ertd621e', [u'BC033609', u'Fam91a1', u'mKIAA0493', u'SKIN', u'AV220772'], u'http://data.bioontology.org/ontologies/OGG-MM', u'Ontology of Genes and Genomes - Mouse', u'OGG-MM', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://www.semanticweb.org/pallabi.d/ontologies/2014/2/untitled-ontology-11#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/MCCL', u'Cell Line Ontology [by Mahadevan]', u'MCCL', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/OMIM/MTHU000083', u'Skin', [], u'http://data.bioontology.org/ontologies/OMIM', u'Online Mendelian Inheritance in Man', u'OMIM', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://sig.uw.edu/fma#Skin', u'skin', [u'skins'], u'http://data.bioontology.org/ontologies/HUPSON', u'Human Physiology Simulation Ontology', u'HUPSON', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP36760-4', u'Skin', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/BTO_0001253', u'skin', [], u'http://data.bioontology.org/ontologies/BTO', u'BRENDA Tissue and Enzyme Source Ontology', u'BTO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/BTO_0001253', u'skin', [], u'http://data.bioontology.org/ontologies/DTO', u'Drug Target Ontology', u'DTO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://neuromorpho.org/ontologies/vertebrateH.owl#NMOBr_667', u'skin', [], u'http://data.bioontology.org/ontologies/NMOBR', u'NeuroMorpho.Org brain region ontologies', u'NMOBR', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP130014-6', u'Skin', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12470', u'Skin', [u'Integument', u'Skin', u'SKIN', u'Human Skin'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP76007-1', u'Skin', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.org/sig/ont/fma/fma7163', u'Skin', [], u'http://data.bioontology.org/ontologies/ROO', u'Radiation Oncology Ontology', u'ROO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.org/sig/ont/fma/fma7163', u'Skin', [u'Skin of body'], u'http://data.bioontology.org/ontologies/FMA', u'Foundational Model of Anatomy', u'FMA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LA4332-8', u'Skin', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/HL7/C0444099', u'Skin', [], u'http://data.bioontology.org/ontologies/HL7', u'Health Level Seven Reference Implementation Model, Version 3', u'HL7', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/TAO_0000368', u'integument', [u'skin'], u'http://data.bioontology.org/ontologies/TAO', u'Teleost Anatomy Ontology', u'TAO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/CHEAR', u"Children's Health Exposure Analysis Resource", u'CHEAR', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'skin', u'entire skin'], u'http://data.bioontology.org/ontologies/OPL', u'Ontology for Parasite LifeCycle', u'OPL', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integument', u'skin', u'entire skin', u'pelt'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integument', u'skin', u'entire skin'], u'http://data.bioontology.org/ontologies/PDRO', u'The Prescription of Drugs Ontology', u'PDRO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/OBA', u'Ontology of Biological Attributes', u'OBA', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/OAE', u'Ontology of Adverse Events', u'OAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integument', u'skin', u'entire skin'], u'http://data.bioontology.org/ontologies/VO', u'Vaccine Ontology', u'VO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/OVAE', u'Ontology of Vaccine Adverse Events', u'OVAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/ENVO', u'Environment Ontology', u'ENVO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/CL', u'Cell Ontology', u'CL', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integument', u'skin', u'entire skin', u'pelt'], u'http://data.bioontology.org/ontologies/DTO', u'Drug Target Ontology', u'DTO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integument', u'skin', u'entire skin'], u'http://data.bioontology.org/ontologies/VICO', u'Vaccination Informed Consent Ontology', u'VICO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/UBERON', u'Uber Anatomy Ontology', u'UBERON', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/OCMR', u'Ontology of Chinese Medicine for Rheumatism', u'OCMR', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/BAO', u'BioAssay Ontology', u'BAO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/GO-PLUS', u'go-plus', u'GO-PLUS', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integumental organ', u'integument', u'skin', u'entire skin', u'entire integument', u'pelt', u'skin organ'], u'http://data.bioontology.org/ontologies/OCVDAE', u'Ontology of Cardiovascular Drug Adverse Events', u'OCVDAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002097', u'skin of body', [u'integument', u'skin', u'entire skin', u'pelt'], u'http://data.bioontology.org/ontologies/CEPH', u'Cephalopod Ontology', u'CEPH', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/FMA_7163', u'Skin', [u'Skin of body'], u'http://data.bioontology.org/ontologies/ONTONEO', u'Obstetric and Neonatal Ontology', u'ONTONEO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/EHDAA_6530', u'skin', [], u'http://data.bioontology.org/ontologies/EHDAA', u'Human Developmental Anatomy Ontology, abstract version 1', u'EHDAA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/EHDAA2_0001844', u'skin', [], u'http://data.bioontology.org/ontologies/EHDAA2', u'Human Developmental Anatomy Ontology, abstract version 2', u'EHDAA2', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#A17.815', u'Skin', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/NCBIGene_18988', u'Pou2f3', [u'Skin', u'Otf11', u'Skin-1a', u'Epoc-1', u'Skn-1a', u'Skn-li', u'Otf-11', u'Oct11', u'Oct-11a'], u'http://data.bioontology.org/ontologies/RETO', u'Regulation of Transcription Ontology', u'RETO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C23404', u'Murine Skin', [u'Skin, NOS', u'Skin', u'Murine Skin'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://identifiers.org/ncbigene/18988', u'Pou2f3', [u'Skin-1a', u'Otf11', u'Epoc-1', u'Skin', u'Oct11', u'Oct-11a', u'Skn-li', u'Otf-11', u'Skn-1a'], u'http://data.bioontology.org/ontologies/GEXO', u'Gene Expression Ontology', u'GEXO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://identifiers.org/ncbigene/18988', u'Pou2f3', [u'Skin-1a', u'Otf11', u'Epoc-1', u'Skin', u'Oct11', u'Oct-11a', u'Skn-li', u'Otf-11', u'Skn-1a'], u'http://data.bioontology.org/ontologies/REXO', u'Regulation of Gene Expression Ontolology', u'REXO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/LNC/MTHU001414', u'Skin', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/MA_0000151', u'skin', [], u'http://data.bioontology.org/ontologies/MA', u'Mouse Adult Gross Anatomy Ontology', u'MA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/VHOG_0000860', u'skin', [u'integument', u'cuticle'], u'http://data.bioontology.org/ontologies/VHOG', u'Vertebrate Homologous Organ Group Ontology', u'VHOG', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_6531', u'skin', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.org/heritagedata/schemes/560/concepts/142196', u'SKIN', [], u'http://data.bioontology.org/ontologies/FISH-AST', u'FISH Archaeological Sciences Thesaurus', u'FISH-AST', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.radlex.org/RID/#RID34290', u'skin', [], u'http://data.bioontology.org/ontologies/RADLEX', u'Radiology Lexicon', u'RADLEX', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://bioportal/bioontology.org/ontologies/HIVO0004#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/HIVO004', u'HIVOntologymain.owl', u'HIVO004', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://scdontology.h3abionet.org/ontology/SCDO_0001070', u'Skin', [u'Dermatologic System', u'Integumentary System'], u'http://data.bioontology.org/ontologies/SCDO', u'Sickle Cell Disease Ontology', u'SCDO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://identifiers.org/ncbigene/210998', u'D15Ertd621e', [u'Fam91a1', u'BC033609', u'AV220772', u'SKIN', u'mKIAA0493'], u'http://data.bioontology.org/ontologies/GEXO', u'Gene Expression Ontology', u'GEXO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://identifiers.org/ncbigene/210998', u'D15Ertd621e', [u'Fam91a1', u'BC033609', u'AV220772', u'SKIN', u'mKIAA0493'], u'http://data.bioontology.org/ontologies/REXO', u'Regulation of Gene Expression Ontolology', u'REXO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/MFO_0003200', u'skin', [], u'http://data.bioontology.org/ontologies/MFO', u'Medaka Fish Anatomy and Development Ontology', u'MFO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://scai.fraunhofer.de/CSEO#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/CSEO', u'Cigarette Smoke Exposure Ontology', u'CSEO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/CSEO', u'Cigarette Smoke Exposure Ontology', u'CSEO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/SYN', u'Sage Bionetworks Synapse Ontology', u'SYN', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000962', u'skin', [u'Skin of body'], u'http://data.bioontology.org/ontologies/CLO', u'Cell Line Ontology', u'CLO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/OGG_3000018988', u'Pou2f3', [u'Skin', u'Otf11', u'Skin-1a', u'Epoc-1', u'Skn-1a', u'Skn-li', u'Otf-11', u'Oct11', u'Oct-11a'], u'http://data.bioontology.org/ontologies/OGG-MM', u'Ontology of Genes and Genomes - Mouse', u'OGG-MM', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/CSP/2716-0373', u'skin', [u'epidermis', u'integumentary system', u'hypodermis', u'stratum corneum'], u'http://data.bioontology.org/ontologies/CRISP', u'Computer Retrieval of Information on Scientific Projects Thesaurus', u'CRISP', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#D012867', u'Skin', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://doe-generated-ontology.com/OntoAD#C1123023', u'Skin', [u'Integument'], u'http://data.bioontology.org/ontologies/ONTOAD', u"Bilingual Ontology of Alzheimer's Disease and Related Diseases", u'ONTOAD', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.bioontology.org/pma.owl#PMA_701', u'Skin', [], u'http://data.bioontology.org/ontologies/PMA', u'Portfolio Management Application', u'PMA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/MAT_0000284', u'skin', [], u'http://data.bioontology.org/ontologies/MAT', u'Minimal Anatomical Terminology', u'MAT', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'urn:absolute:RadiationOncologyStructuresOntology#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/ROS', u'Radiation Oncology Structures Ontology', u'ROS', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/CHEAR', u"Children's Health Exposure Analysis Resource", u'CHEAR', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'epidermis', [u'skin', u'vertebrate epidermis', u'Entire epidermis', u'adult epidermis'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/OBA', u'Ontology of Biological Attributes', u'OBA', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/OAE', u'Ontology of Adverse Events', u'OAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/OVAE', u'Ontology of Vaccine Adverse Events', u'OVAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/ENVO', u'Environment Ontology', u'ENVO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/CL', u'Cell Ontology', u'CL', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/UBERON', u'Uber Anatomy Ontology', u'UBERON', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/OCMR', u'Ontology of Chinese Medicine for Rheumatism', u'OCMR', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/GO-PLUS', u'go-plus', u'GO-PLUS', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0001003', u'skin epidermis', [u'skin', u'epidermis', u'vertebrate epidermis'], u'http://data.bioontology.org/ontologies/OCVDAE', u'Ontology of Cardiovascular Drug Adverse Events', u'OCVDAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/ICPC/S', u'SKIN', [], u'http://data.bioontology.org/ontologies/ICPC', u'International Classification of Primary Care', u'ICPC', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.org/obo/owlapi/fma#FMA_7163', u'Skin', [], u'http://data.bioontology.org/ontologies/BIOMODELS', u'BioModels Ontology', u'BIOMODELS', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.semanticweb.org/ontologies/2010/10/BPO.owl#skin', u'skin', [], u'http://data.bioontology.org/ontologies/BHO', u'Bleeding History Phenotype Ontology', u'BHO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_9922', u'skin', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/NCBIGene_210998', u'D15Ertd621e', [u'BC033609', u'Fam91a1', u'mKIAA0493', u'SKIN', u'AV220772'], u'http://data.bioontology.org/ontologies/RETO', u'Regulation of Transcription Ontology', u'RETO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/CHEAR', u"Children's Health Exposure Analysis Resource", u'CHEAR', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'skin', [], u'http://data.bioontology.org/ontologies/CCONT', u'Cell Culture Ontology', u'CCONT', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'Skin of body', u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/OBA', u'Ontology of Biological Attributes', u'OBA', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/OAE', u'Ontology of Adverse Events', u'OAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/OVAE', u'Ontology of Vaccine Adverse Events', u'OVAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/ENVO', u'Environment Ontology', u'ENVO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/CL', u'Cell Ontology', u'CL', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/UBERON', u'Uber Anatomy Ontology', u'UBERON', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/OCMR', u'Ontology of Chinese Medicine for Rheumatism', u'OCMR', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/GO-PLUS', u'go-plus', u'GO-PLUS', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000014', u'zone of skin', [u'region of skin', u'skin', u'skin region', u'portion of skin', u'skin zone'], u'http://data.bioontology.org/ontologies/OCVDAE', u'Ontology of Cardiovascular Drug Adverse Events', u'OCVDAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/ZFA_0000368', u'integument', [u'skin'], u'http://data.bioontology.org/ontologies/ZFA', u'Zebrafish Anatomy and Development Ontology', u'ZFA', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/VHOG_0000077', u'epidermis', [u'skin'], u'http://data.bioontology.org/ontologies/VHOG', u'Vertebrate Homologous Organ Group Ontology', u'VHOG', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/SNMI/T-01000', u'Skin, NOS', [u'SKIN AND SKIN APPENDAGES', u'Cutaneo-', u'Cutaneous', u'SKIN'], u'http://data.bioontology.org/ontologies/SNMI', u'Systematized Nomenclature of Medicine, International Version', u'SNMI', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/RCD/7N7..', u'Skin', [], u'http://data.bioontology.org/ontologies/RCD', u'Read Codes, Clinical Terms Version 3 (CTV3) ', u'RCD', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/CHEAR', u"Children's Health Exposure Analysis Resource", u'CHEAR', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/OBA', u'Ontology of Biological Attributes', u'OBA', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/OAE', u'Ontology of Adverse Events', u'OAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/OVAE', u'Ontology of Vaccine Adverse Events', u'OVAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/ENVO', u'Environment Ontology', u'ENVO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/CL', u'Cell Ontology', u'CL', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/UBERON', u'Uber Anatomy Ontology', u'UBERON', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/OCMR', u'Ontology of Chinese Medicine for Rheumatism', u'OCMR', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/GO-PLUS', u'go-plus', u'GO-PLUS', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'skin plus hypodermis', u'skin', u'dermal system', u'dermis plus epidermis plus hypodermis', u'Hautsystem@de', u'vertebrate integument', u'skin and subcutaneous tissue', u'dermoid system'], u'http://data.bioontology.org/ontologies/OCVDAE', u'Ontology of Cardiovascular Drug Adverse Events', u'OCVDAE', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0002199', u'integument', [u'tegument', u'integumentum commune', u'the integument', u'Hautsystem', u'skin', u'dermal system', u'dermoid system'], u'http://data.bioontology.org/ontologies/CEPH', u'Cephalopod Ontology', u'CEPH', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/XAO_0000028', u'epidermis', [u'skin'], u'http://data.bioontology.org/ontologies/XAO', u'Xenopus Anatomy and Development Ontology', u'XAO', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/EMAPA_17525', u'skin', [], u'http://data.bioontology.org/ontologies/EMAPA', u'Mouse gross anatomy and development, timed', u'EMAPA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.ncbi.nlm.nih.gov/gene/210998', u'family with sequence similarity 91, member A1', [u'skeletal muscle cells re-entry induced', u'protein FAM91A1', u'D15Ertd621e', u'BC033609', u'AV220772', u'SKIN', u'mKIAA0493'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/XAO_0000023', u'skin', [u'integument'], u'http://data.bioontology.org/ontologies/XAO', u'Xenopus Anatomy and Development Ontology', u'XAO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.semanticweb.org/ontologies/2012/11/abnormalities.owl#phenodb:2061', u'Skin', [], u'http://data.bioontology.org/ontologies/IFAR', u'Fanconi Anemia Ontology', u'IFAR', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/39937001', u'Skin structure', [u'Skin', u'Skin structure (body structure)'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://www.cea.fr/ontotoxnuc#Peau', u'skin', [], u'http://data.bioontology.org/ontologies/ONTOTOXNUC', u'Ontology of Nuclear Toxicity', u'ONTOTOXNUC', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/181469002', u'Entire skin', [u'Skin', u'Entire skin (body structure)'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'SKIN', u'SYN', 79, 82)])
+
+(u'http://id.loc.gov/authorities/subjects/sh85123164', u'Skin', [], u'http://data.bioontology.org/ontologies/FAST-TOPICAL', u'FAST (Faceted Application of Subject Terminology) Topical Facet', u'FAST-TOPICAL', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://localhost/plosthes.2017-1#725', u'Skin', [], u'http://data.bioontology.org/ontologies/PLOSTHES', u'PLOS Thesaurus', u'PLOSTHES', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_8740', u'skin', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.projecthalo.com/aura#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/AURA', u'KB_Bio_101', u'AURA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.icn.ch/icnp#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/ICNP', u'International Classification for Nursing Practice', u'ICNP', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.jp/bio/11/meo/MEO_0000586', u'skin', [], u'http://data.bioontology.org/ontologies/MEO', u'Metagenome and Microbes Environmental Ontology', u'MEO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_7501', u'skin', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://www.ifomis.org/acgt/1.0#Skin', u'Skin', [], u'http://data.bioontology.org/ontologies/ACGT-MO', u'Cancer Research and Management ACGT Master Ontology', u'ACGT-MO', [(u'SKIN', u'PREF', 79, 82)])
+
+(u'http://d-nb.info/gnd/4477027-3', u'also', [], u'http://data.bioontology.org/ontologies/FAST-TOPICAL', u'FAST (Faceted Application of Subject Terminology) Topical Facet', u'FAST-TOPICAL', [(u'ALSO', u'PREF', 88, 91)])
+
+(u'http://purl.obolibrary.org/obo/MA_0001524', u'bowel', [], u'http://data.bioontology.org/ontologies/MA', u'Mouse Adult Gross Anatomy Ontology', u'MA', [(u'BOWEL', u'PREF', 100, 104)])
+
+(u'http://www.radlex.org/RID/#RID130', u'intestine', [u'Darm', u'bowel'], u'http://data.bioontology.org/ontologies/RADLEX', u'Radiology Lexicon', u'RADLEX', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C23667', u'Murine Intestines', [u'Intestines', u'Intestine', u'Bowel', u'Murine Intestines'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000834', u'obsolete_intestine', [u'gut', u'intestines', u'adult alimentary canal', u'Bowel'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000834', u'intestine', [u'gut', u'intestines', u'adult alimentary canal', u'Bowel'], u'http://data.bioontology.org/ontologies/CLO', u'Cell Line Ontology', u'CLO', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.bioontology.org/ontology/LNC/MTHU002653', u'Bowel', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'BOWEL', u'PREF', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/BTO_0000648', u'intestine', [u'bowel'], u'http://data.bioontology.org/ontologies/BTO', u'BRENDA Tissue and Enzyme Source Ontology', u'BTO', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/CHEAR', u"Children's Health Exposure Analysis Resource", u'CHEAR', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'Entire intestine', u'bowel'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/OBA', u'Ontology of Biological Attributes', u'OBA', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/OAE', u'Ontology of Adverse Events', u'OAE', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/ENVO', u'Environment Ontology', u'ENVO', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/CL', u'Cell Ontology', u'CL', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'bowel'], u'http://data.bioontology.org/ontologies/DTO', u'Drug Target Ontology', u'DTO', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/UBERON', u'Uber Anatomy Ontology', u'UBERON', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/OCMR', u'Ontology of Chinese Medicine for Rheumatism', u'OCMR', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/BAO', u'BioAssay Ontology', u'BAO', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/GO-PLUS', u'go-plus', u'GO-PLUS', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'intestinal tract', u'bowel'], u'http://data.bioontology.org/ontologies/OCVDAE', u'Ontology of Cardiovascular Drug Adverse Events', u'OCVDAE', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000160', u'intestine', [u'bowel'], u'http://data.bioontology.org/ontologies/CEPH', u'Cephalopod Ontology', u'CEPH', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C124186', u'Pattern of Bowel Movements', [u'Bowel Pattern Distress', u'Pattern of Bowel Movements', u'Bowel Pattern', u'Bowel'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.org/sig/ont/fma/fma7199', u'Intestine', [u'Bowel', u'Gut'], u'http://data.bioontology.org/ontologies/FMA', u'Foundational Model of Anatomy', u'FMA', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP7078-1', u'Bowel', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'BOWEL', u'PREF', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/FMA_7199', u'Intestine', [u'Bowel'], u'http://data.bioontology.org/ontologies/ONTONEO', u'Obstetric and Neonatal Ontology', u'ONTONEO', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://purl.obolibrary.org/obo/EMAPA_35180', u'bowel', [], u'http://data.bioontology.org/ontologies/EMAPA', u'Mouse gross anatomy and development, timed', u'EMAPA', [(u'BOWEL', u'PREF', 100, 104)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/113276009', u'Intestinal structure', [u'Intestinal structure (body structure)', u'Intestinal tract', u'Bowel', u'Intestines'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12736', u'Intestine', [u'intestine', u'Intestines', u'bowel', u'INTESTINE', u'Intestine', u'Bowel'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'BOWEL', u'SYN', 100, 104)])
+
+(u'http://www.case.edu/EpSO.owl#Eye', u'Eye', [], u'http://data.bioontology.org/ontologies/EPSO', u'Epilepsy and Seizure Ontology', u'EPSO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/244486005', u'Entire eye', [u'Globe', u'Entire eye (body structure)', u'Eye'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/CHEAR', u"Children's Health Exposure Analysis Resource", u'CHEAR', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [], u'http://data.bioontology.org/ontologies/CCONT', u'Cell Culture Ontology', u'CCONT', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'photoreceptor', u'visual apparatus'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/OBA', u'Ontology of Biological Attributes', u'OBA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [], u'http://data.bioontology.org/ontologies/FOODON', u'FoodOn', u'FOODON', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/OAE', u'Ontology of Adverse Events', u'OAE', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [], u'http://data.bioontology.org/ontologies/CLO', u'Cell Line Ontology', u'CLO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/ENVO', u'Environment Ontology', u'ENVO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/CL', u'Cell Ontology', u'CL', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/ODNAE', u'Ontology of Drug Neuropathy Adverse Events', u'ODNAE', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [], u'http://data.bioontology.org/ontologies/EUPATH', u'EuPath Ontology', u'EUPATH', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [], u'http://data.bioontology.org/ontologies/GENEPIO', u'GenEpiO', u'GENEPIO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/UBERON', u'Uber Anatomy Ontology', u'UBERON', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/OCMR', u'Ontology of Chinese Medicine for Rheumatism', u'OCMR', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/GO-PLUS', u'go-plus', u'GO-PLUS', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [], u'http://data.bioontology.org/ontologies/OBI_BCGO', u'Beta Cell Genomics Ontology', u'OBI_BCGO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'visual apparatus'], u'http://data.bioontology.org/ontologies/OCVDAE', u'Ontology of Cardiovascular Drug Adverse Events', u'OCVDAE', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000970', u'eye', [u'light-detecting organ', u'photoreceptor', u'visual apparatus'], u'http://data.bioontology.org/ontologies/CEPH', u'Cephalopod Ontology', u'CEPH', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://www.radlex.org/RID/#RID34550', u'eye', [], u'http://data.bioontology.org/ontologies/RADLEX', u'Radiology Lexicon', u'RADLEX', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/LNC/MTHU001430', u'Eye', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/XAO_0000227', u'eye primordium', [u'eye anlage', u'eye'], u'http://data.bioontology.org/ontologies/XAO', u'Xenopus Anatomy and Development Ontology', u'XAO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/PLANA_0000036', u'eye', [], u'http://data.bioontology.org/ontologies/PLANA', u'Planarian Anatomy and Developmental Stage Ontolgoy', u'PLANA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://doe-generated-ontology.com/OntoAD#C0015392', u'Eye', [u'Structure of eye proper'], u'http://data.bioontology.org/ontologies/ONTOAD', u"Bilingual Ontology of Alzheimer's Disease and Related Diseases", u'ONTOAD', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/ZFA_0000107', u'eye', [u'eyes'], u'http://data.bioontology.org/ontologies/ZFA', u'Zebrafish Anatomy and Development Ontology', u'ZFA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_9032', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/CHEAR', u"Children's Health Exposure Analysis Resource", u'CHEAR', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/OBA', u'Ontology of Biological Attributes', u'OBA', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/OAE', u'Ontology of Adverse Events', u'OAE', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/ENVO', u'Environment Ontology', u'ENVO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/CL', u'Cell Ontology', u'CL', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/UBERON', u'Uber Anatomy Ontology', u'UBERON', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/OCMR', u'Ontology of Chinese Medicine for Rheumatism', u'OCMR', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0000019', u'camera-type eye', [u'orbital region', u'camera-type eye plus associated structures', u'eyes', u'vertebrate eye', u'orbital part of face', u'eye', u'regio orbitalis'], u'http://data.bioontology.org/ontologies/GO-PLUS', u'go-plus', u'GO-PLUS', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000827', u'obsolete_eye structure', [u'Facettenauge', u'adult compound eye', u'compound eye', u'zusammengesetztes Auge', u'visual_system', u'Orbital region', u'eyes', u'eyeball', u'visual system', u'Komplexauge', u'visual apparatus', u'Orbital part of face', u'eye'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://www.ebi.ac.uk/efo/EFO_0000827', u'eye structure', [u'adult compound eye', u'compound eye', u'"Facettenauge"', u'"zusammengesetztes Auge"', u'visual_system', u'"Komplexauge"', u'Orbital region', u'eyes', u'eyeball', u'visual apparatus', u'Orbital part of face', u'eye'], u'http://data.bioontology.org/ontologies/CLO', u'Cell Line Ontology', u'CLO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_937', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/TGMA_0000950', u'pupal compound eye', [u'Hauptauge', u'zusammengesetztes Auge', u'Komplexauge', u'imaginal eye', u'eye'], u'http://data.bioontology.org/ontologies/TGMA', u'Mosquito Gross Anatomy Ontology', u'TGMA', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.jp/bio/11/meo/MEO_0000600', u'eye', [], u'http://data.bioontology.org/ontologies/MEO', u'Metagenome and Microbes Environmental Ontology', u'MEO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_3808', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP117007-7', u'Eye', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/ICPC/F', u'EYE', [], u'http://data.bioontology.org/ontologies/ICPC', u'International Classification of Primary Care', u'ICPC', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://www.bioontology.org/pma.owl#PMA_727', u'Eye', [], u'http://data.bioontology.org/ontologies/PMA', u'Portfolio Management Application', u'PMA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/CHEAR', u"Children's Health Exposure Analysis Resource", u'CHEAR', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/CCONT', u'Cell Culture Ontology', u'CCONT', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/EFO', u'Experimental Factor Ontology', u'EFO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/OBA', u'Ontology of Biological Attributes', u'OBA', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/OAE', u'Ontology of Adverse Events', u'OAE', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/ENVO', u'Environment Ontology', u'ENVO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/CL', u'Cell Ontology', u'CL', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/UBERON', u'Uber Anatomy Ontology', u'UBERON', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/OCMR', u'Ontology of Chinese Medicine for Rheumatism', u'OCMR', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/UBERON_0010230', u'eyeball of camera-type eye', [u'eye globe', u'bulbus oculi', u'globe', u'eyeball', u'eye'], u'http://data.bioontology.org/ontologies/GO-PLUS', u'go-plus', u'GO-PLUS', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDAA2_0000484', u'eye', [], u'http://data.bioontology.org/ontologies/EHDAA2', u'Human Developmental Anatomy Ontology, abstract version 2', u'EHDAA2', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/TAO_0000107', u'eye', [u'eyes', u'eyeball'], u'http://data.bioontology.org/ontologies/TAO', u'Teleost Anatomy Ontology', u'TAO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/TGMA_0000729', u'larval stemma', [u'ocellus', u'accessory eye', u'simple eye', u'ocelle', u'lateral eye', u'larval ocellus', u'oeil larvaire', u'pupal eye', u'larval eye', u'eye-spot', u'Nebenauge', u'lateral ocellus', u'eye'], u'http://data.bioontology.org/ontologies/TGMA', u'Mosquito Gross Anatomy Ontology', u'TGMA', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_2128', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://id.loc.gov/authorities/subjects/sh85046642', u'Eye', [], u'http://data.bioontology.org/ontologies/FAST-TOPICAL', u'FAST (Faceted Application of Subject Terminology) Topical Facet', u'FAST-TOPICAL', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_2907', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP207778-4', u'Eye', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/TrOn_0000633', u'eye', [u'compound eye ', u'oculus'], u'http://data.bioontology.org/ontologies/TRON', u'Tribolium Ontology', u'TRON', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://www.owl-ontologies.com/unnamed.owl#RID13198', u'EYE', [], u'http://data.bioontology.org/ontologies/DERMLEX', u'Dermatology Lexicon', u'DERMLEX', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/MA_0000261', u'eye', [], u'http://data.bioontology.org/ontologies/MA', u'Mouse Adult Gross Anatomy Ontology', u'MA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://www.co-ode.org/ontologies/galen#Eye', u'Eye', [], u'http://data.bioontology.org/ontologies/GALEN', u'Galen Ontology', u'GALEN', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/TGMA_0000422', u'eye', [u'eye spot', u'larval eye'], u'http://data.bioontology.org/ontologies/TGMA', u'Mosquito Gross Anatomy Ontology', u'TGMA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_4732', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/RCD/X74in', u'Eye', [], u'http://data.bioontology.org/ontologies/RCD', u'Read Codes, Clinical Terms Version 3 (CTV3) ', u'RCD', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/XAO_0000228', u'optic vesicle', [u'optic cup', u'eye vesicle', u'eye'], u'http://data.bioontology.org/ontologies/XAO', u'Xenopus Anatomy and Development Ontology', u'XAO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/BTO_0000439', u'eye', [u'visual system', u'visual apparatus'], u'http://data.bioontology.org/ontologies/BTO', u'BRENDA Tissue and Enzyme Source Ontology', u'BTO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/BTO_0000439', u'eye', [], u'http://data.bioontology.org/ontologies/DTO', u'Drug Target Ontology', u'DTO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_6774', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://www.owl-ontologies.com/Ontology1358660052.owl#Eye', u'Eye', [], u'http://data.bioontology.org/ontologies/PEDTERM', u'Pediatric Terminology', u'PEDTERM', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/HAO_0000217', u'compound eye', [u'Auge', u'eye'], u'http://data.bioontology.org/ontologies/HAO', u'Hymenoptera Anatomy Ontology', u'HAO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://www.icn.ch/icnp#Eye', u'Eye', [], u'http://data.bioontology.org/ontologies/ICNP', u'International Classification for Nursing Practice', u'ICNP', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/FBbt_00004508', u'eye', [u'compound eye'], u'http://data.bioontology.org/ontologies/FB-CV', u'FlyBase Controlled Vocabulary', u'FB-CV', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/FBbt_00004508', u'eye', [u'compound eye'], u'http://data.bioontology.org/ontologies/FB-BT', u'Drosophila Gross Anatomy Ontology', u'FB-BT', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_10194', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12401', u'Eye', [u'EYE', u'Ophthalmic', u'Optic', u'ophthalmic', u'Ocular', u'Eye', u'Eyeball'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://scdontology.h3abionet.org/ontology/SCDO_0001312', u'Eye', [u'Oculus', u'Ophthalmic'], u'http://data.bioontology.org/ontologies/SCDO', u'Sickle Cell Disease Ontology', u'SCDO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://www.projecthalo.com/aura#Eye', u'Eye', [], u'http://data.bioontology.org/ontologies/AURA', u'KB_Bio_101', u'AURA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/VHOG_0000275', u'eye', [u'visual apparatus'], u'http://data.bioontology.org/ontologies/VHOG', u'Vertebrate Homologous Organ Group Ontology', u'VHOG', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.org/sig/ont/fma/fma54448', u'Eye', [], u'http://data.bioontology.org/ontologies/ROO', u'Radiation Oncology Ontology', u'ROO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.org/sig/ont/fma/fma54448', u'Eye', [u'Orbital region', u'Orbital part of face'], u'http://data.bioontology.org/ontologies/FMA', u'Foundational Model of Anatomy', u'FMA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/HL7/C1550636', u'Eye', [], u'http://data.bioontology.org/ontologies/HL7', u'Health Level Seven Reference Implementation Model, Version 3', u'HL7', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/PO_0025042', u'subterranean tuber axillary vegetative bud', [u'\u5730\u4e0b\u584a\u830e\u814b\u6804\u990a\u82bd (Japanese)', u'yema vegetativa axilar de tub&#233rculo subterr&#225neo (Spanish)', u'potato eye', u'tuber eye', u'swollen eye', u'eye'], u'http://data.bioontology.org/ontologies/PAE', u'Plant Anatomy', u'PAE', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/PO_0025042', u'subterranean tuber axillary vegetative bud', [u'\u5730\u4e0b\u584a\u830e\u814b\u6804\u990a\u82bd (Japanese)', u'yema vegetativa axilar de tub&#233rculo subterr&#225neo (Spanish)', u'potato eye', u'tuber eye', u'swollen eye', u'eye'], u'http://data.bioontology.org/ontologies/GRO-CPGA', u'Cereal Plant Gross Anatomy Ontology', u'GRO-CPGA', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/PO_0025042', u'subterranean tuber axillary vegetative bud', [u'\u5730\u4e0b\u584a\u830e\u814b\u6804\u990a\u82bd (Japanese)', u'yema vegetativa axilar de tub&#233rculo subterr&#225neo (Spanish)', u'potato eye', u'tuber eye', u'swollen eye', u'eye'], u'http://data.bioontology.org/ontologies/FLOPO', u'Flora Phenotype Ontology', u'FLOPO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/DDO.owl#DDO_0006248', u'eye', [], u'http://data.bioontology.org/ontologies/DMTO', u'Diabetes Mellitus Treatment Ontology', u'DMTO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/DDO.owl#DDO_0006248', u'eye', [], u'http://data.bioontology.org/ontologies/DDO', u'Diabetes Mellitus Diagnosis Ontology', u'DDO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#A01.456.505.420', u'Eye', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP7218-3', u'Eye', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.org/obo/owl/FMA#FMA_54448', u'Eye', [], u'http://data.bioontology.org/ontologies/SDO', u'Sleep Domain Ontology', u'SDO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://sig.uw.edu/fma#Eye', u'eye', [u'Ophthalmic', u'Optic', u'Special Sense Organ', u'Ocular', u'Eyeball', u'eyes'], u'http://data.bioontology.org/ontologies/HUPSON', u'Human Physiology Simulation Ontology', u'HUPSON', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/TGMA_0000024', u'adult compound eye', [u'Facettenauge', u'zusammengesetztes Auge', u'Komplexauge', u'eye'], u'http://data.bioontology.org/ontologies/TGMA', u'Mosquito Gross Anatomy Ontology', u'TGMA', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/SNOMEDCT/81745001', u'Eye structure', [u'Structure of eye proper', u'Eyeball', u'Eye', u'Eyeball structure', u'Structure of eye proper (body structure)'], u'http://data.bioontology.org/ontologies/SNOMEDCT', u'SNOMED CT', u'SNOMEDCT', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/SPD_0000015', u'eye', [], u'http://data.bioontology.org/ontologies/SPD', u'Spider Ontology', u'SPD', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/LNC/MTHU000064', u'Eye', [u'EYE'], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_1491', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/XAO_0000179', u'eye', [u'eyes'], u'http://data.bioontology.org/ontologies/XAO', u'Xenopus Anatomy and Development Ontology', u'XAO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_5701', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/LNC/LP7797-6', u'EYE', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDAA_936', u'eye', [], u'http://data.bioontology.org/ontologies/EHDAA', u'Human Developmental Anatomy Ontology, abstract version 1', u'EHDAA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/LNC/MTHU038905', u'Eye', [], u'http://data.bioontology.org/ontologies/LOINC', u'Logical Observation Identifier Names and Codes', u'LOINC', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://bioontology.org/projects/ontologies/birnlex#birnlex_1169', u'Eye', [u''], u'http://data.bioontology.org/ontologies/BIRNLEX', u'Biomedical Informatics Research Network Project Lexicon', u'BIRNLEX', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#D005123', u'Eye', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/TGMA_0000730', u'larval compound eye', [u'oeil imaginal', u'oeil', u'primordia of the compound eye of the imago', u'lateral eye', u'Hauptauge', u'adult eye', u'eye spot', u'primordial ommatidia of the adult', u'larval eye', u'primordia of imaginal eye ', u'anlagen of the adult eye', u'Komplexauge', u'imaginal eye', u'eye'], u'http://data.bioontology.org/ontologies/TGMA', u'Mosquito Gross Anatomy Ontology', u'TGMA', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.bioontology.org/ontology/CSP/1107-6922', u'eye', [], u'http://data.bioontology.org/ontologies/CRISP', u'Computer Retrieval of Information on Scientific Projects Thesaurus', u'CRISP', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_6754000', u'eye', [], u'http://data.bioontology.org/ontologies/NEMO', u'Neural ElectroMagnetic Ontology', u'NEMO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://phenomebrowser.net/ontologies/mesh/mesh.owl#A09.371', u'Eye', [], u'http://data.bioontology.org/ontologies/RH-MESH', u'Robert Hoehndorf Version of MeSH', u'RH-MESH', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/XAO_0004109', u'regenerating eye', [u'eye'], u'http://data.bioontology.org/ontologies/XAO', u'Xenopus Anatomy and Development Ontology', u'XAO', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://uri.neuinfo.org/nif/nifstd/birnlex_1169', u'Eye', [], u'http://data.bioontology.org/ontologies/NIFSTD', u'Neuroscience Information Framework (NIF) Standard Ontology', u'NIFSTD', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/EHDA_7813', u'eye', [], u'http://data.bioontology.org/ontologies/EHDA', u'Human Developmental Anatomy Ontology, timed version', u'EHDA', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Eye', u'Eye', [], u'http://data.bioontology.org/ontologies/SYN', u'Sage Bionetworks Synapse Ontology', u'SYN', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/AAO_0010340', u'eye', [], u'http://data.bioontology.org/ontologies/AAO', u'Amphibian Gross Anatomy Ontology', u'AAO', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C23336', u'Murine Eye', [u'Eye, NOS', u'Murine Eye', u'Eye', u'Eyeball'], u'http://data.bioontology.org/ontologies/NCIT', u'National Cancer Institute Thesaurus', u'NCIT', [(u'EYE', u'SYN', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/MAT_0000140', u'eye', [u'adult compound eye', u'visual_system', u'eyes', u'visual apparatus'], u'http://data.bioontology.org/ontologies/MAT', u'Minimal Anatomical Terminology', u'MAT', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.org/obo/owlapi/fma#FMA_54448', u'Eye', [], u'http://data.bioontology.org/ontologies/BIOMODELS', u'BioModels Ontology', u'BIOMODELS', [(u'EYE', u'PREF', 114, 116)])
+
+(u'http://purl.obolibrary.org/obo/SIBO_0000086', u'eye', [], u'http://data.bioontology.org/ontologies/SIBO', u'Social Inset Behavior Ontology', u'SIBO', [(u'EYE', u'PREF', 114, 116)])
+

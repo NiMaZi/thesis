@@ -1,0 +1,758 @@
+result no. 1
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 2
+text: MELANOMA, from: 1, to: 8, match type: SYN
+result no. 3
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 4
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 5
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 6
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 7
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 8
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 9
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 10
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 11
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 12
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 13
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 14
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 15
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 16
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 17
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 18
+text: MELANOMA, from: 1, to: 8, match type: SYN
+result no. 19
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 20
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 21
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 22
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 23
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 24
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 25
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 26
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 27
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 28
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 29
+text: MELANOMA, from: 1, to: 8, match type: SYN
+result no. 30
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 31
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 32
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 33
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 34
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 35
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 36
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 37
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 38
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 39
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 40
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 41
+text: MELANOMA, from: 1, to: 8, match type: SYN
+result no. 42
+text: MELANOMA, from: 1, to: 8, match type: SYN
+result no. 43
+text: MELANOMA, from: 1, to: 8, match type: PREF
+result no. 44
+text: IS A, from: 10, to: 13, match type: PREF
+result no. 45
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 46
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 47
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 48
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 49
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 50
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 51
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 52
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 53
+text: MALIGNANT TUMOR , from: 15, to: 30, match type: SYN
+result no. 54
+text: MALIGNANT TUMOR, from: 15, to: 29, match type: SYN
+result no. 55
+text: MALIGNANT TUMOR, from: 15, to: 29, match type: PREF
+result no. 56
+text: MALIGNANT TUMOR, from: 15, to: 29, match type: SYN
+result no. 57
+text: MALIGNANT TUMOR, from: 15, to: 29, match type: SYN
+result no. 58
+text: MALIGNANT TUMOR, from: 15, to: 29, match type: SYN
+result no. 59
+text: MALIGNANT TUMOR, from: 15, to: 29, match type: SYN
+result no. 60
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 61
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 62
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 63
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 64
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 65
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 66
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 67
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 68
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 69
+text: MALIGNANT, from: 15, to: 23, match type: PREF
+result no. 70
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 71
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 72
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 73
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 74
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 75
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 76
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 77
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 78
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 79
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 80
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 81
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 82
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 83
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 84
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 85
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 86
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 87
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 88
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 89
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 90
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 91
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 92
+text: TUMOR, from: 25, to: 29, match type: PREF
+result no. 93
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 94
+text: TUMOR, from: 25, to: 29, match type: SYN
+result no. 95
+text: MELANOCYTES, from: 34, to: 44, match type: PREF
+result no. 96
+text: MELANOCYTES, from: 34, to: 44, match type: PREF
+result no. 97
+text: MELANOCYTES, from: 34, to: 44, match type: SYN
+result no. 98
+text: MELANOCYTES, from: 34, to: 44, match type: SYN
+result no. 99
+text: MELANOCYTES, from: 34, to: 44, match type: PREF
+result no. 100
+text: MELANOCYTES, from: 34, to: 44, match type: PREF
+result no. 101
+text: FOUND, from: 56, to: 60, match type: SYN
+result no. 102
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 103
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 104
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 105
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 106
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 107
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 108
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 109
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 110
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 111
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 112
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 113
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 114
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 115
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 116
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 117
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 118
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 119
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 120
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 121
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 122
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 123
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 124
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 125
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 126
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 127
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 128
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 129
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 130
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 131
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 132
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 133
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 134
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 135
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 136
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 137
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 138
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 139
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 140
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 141
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 142
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 143
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 144
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 145
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 146
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 147
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 148
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 149
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 150
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 151
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 152
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 153
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 154
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 155
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 156
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 157
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 158
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 159
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 160
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 161
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 162
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 163
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 164
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 165
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 166
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 167
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 168
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 169
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 170
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 171
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 172
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 173
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 174
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 175
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 176
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 177
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 178
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 179
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 180
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 181
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 182
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 183
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 184
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 185
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 186
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 187
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 188
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 189
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 190
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 191
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 192
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 193
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 194
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 195
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 196
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 197
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 198
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 199
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 200
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 201
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 202
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 203
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 204
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 205
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 206
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 207
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 208
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 209
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 210
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 211
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 212
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 213
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 214
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 215
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 216
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 217
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 218
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 219
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 220
+text: SKIN, from: 79, to: 82, match type: SYN
+result no. 221
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 222
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 223
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 224
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 225
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 226
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 227
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 228
+text: SKIN, from: 79, to: 82, match type: PREF
+result no. 229
+text: ALSO, from: 88, to: 91, match type: PREF
+result no. 230
+text: BOWEL, from: 100, to: 104, match type: PREF
+result no. 231
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 232
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 233
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 234
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 235
+text: BOWEL, from: 100, to: 104, match type: PREF
+result no. 236
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 237
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 238
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 239
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 240
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 241
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 242
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 243
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 244
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 245
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 246
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 247
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 248
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 249
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 250
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 251
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 252
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 253
+text: BOWEL, from: 100, to: 104, match type: PREF
+result no. 254
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 255
+text: BOWEL, from: 100, to: 104, match type: PREF
+result no. 256
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 257
+text: BOWEL, from: 100, to: 104, match type: SYN
+result no. 258
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 259
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 260
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 261
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 262
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 263
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 264
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 265
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 266
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 267
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 268
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 269
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 270
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 271
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 272
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 273
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 274
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 275
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 276
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 277
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 278
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 279
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 280
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 281
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 282
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 283
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 284
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 285
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 286
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 287
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 288
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 289
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 290
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 291
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 292
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 293
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 294
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 295
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 296
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 297
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 298
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 299
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 300
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 301
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 302
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 303
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 304
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 305
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 306
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 307
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 308
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 309
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 310
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 311
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 312
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 313
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 314
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 315
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 316
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 317
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 318
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 319
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 320
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 321
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 322
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 323
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 324
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 325
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 326
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 327
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 328
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 329
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 330
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 331
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 332
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 333
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 334
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 335
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 336
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 337
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 338
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 339
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 340
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 341
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 342
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 343
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 344
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 345
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 346
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 347
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 348
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 349
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 350
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 351
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 352
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 353
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 354
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 355
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 356
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 357
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 358
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 359
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 360
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 361
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 362
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 363
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 364
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 365
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 366
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 367
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 368
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 369
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 370
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 371
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 372
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 373
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 374
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 375
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 376
+text: EYE, from: 114, to: 116, match type: SYN
+result no. 377
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 378
+text: EYE, from: 114, to: 116, match type: PREF
+result no. 379
+text: EYE, from: 114, to: 116, match type: PREF
