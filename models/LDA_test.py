@@ -44,7 +44,8 @@ c2n=json.load(f)
 f.close()
 prefix='http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#'
 ncit_dict=[k.split('#')[1] for k in c2n.keys()]
-dictionary=Dictionary([ncit_dict]);dictionary[0]
+dictionary=Dictionary([corpus])
+print(dictionary[0])
 bow_corpus=[dictionary.doc2bow(doc) for doc in corpus]
 tfidf=TfidfModel(bow_corpus)
 tfidf_corpus=[tfidf[doc] for doc in bow_corpus]
@@ -52,7 +53,7 @@ tfidf_corpus=[tfidf[doc] for doc in bow_corpus]
 res=[]
 for i in [5,10,20,25,40,50,100,200,250,400,500,1000]:
     lda=AuthorTopicModel(tfidf_corpus,num_topics=i,doc2author=d2a,eval_every=False)
-    lda.save(homedir+"/results/models/lda2000_topic"+str(i))
+    lda.save(homedir+"/results/models/lda2000rdc_topic"+str(i))
     try:
         cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='u_mass',processes=4)
         u_mass=cm.get_coherence()
@@ -75,7 +76,7 @@ for i in [5,10,20,25,40,50,100,200,250,400,500,1000]:
         c_npmi=''
     res.append((i,u_mass,c_v,c_uci,c_npmi))
 
-f=open(homedir+"/results/logs/lda2000.csv",'w')
+f=open(homedir+"/results/logs/lda2000rdc.csv",'w')
 wt=csv.writer(f)
 for r in res:
     wt.writerow(r)
