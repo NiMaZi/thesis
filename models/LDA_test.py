@@ -11,7 +11,7 @@ source="annotated_papers_authors"
 corpus=[]
 d2a={}
 c=0
-for i in range(0,200000,1000):
+for i in range(0,200000,100):
     tmpc=[]
     try:
         myBucket.download_file("yalun/"+source+"/body"+str(i)+".csv",homedir+"/temp/ldactmp.csv")
@@ -50,20 +50,32 @@ tfidf=TfidfModel(bow_corpus)
 tfidf_corpus=[tfidf[doc] for doc in bow_corpus]
 
 res=[]
-for i in [10,20,25,40,50,100,200]:
+for i in [5,10,20,25,40,50,100,200,250,400,500,1000]:
     lda=AuthorTopicModel(tfidf_corpus,num_topics=i,doc2author=d2a,eval_every=False)
-    lda.save(homedir+"/results/models/lda200_topic"+str(i))
-    cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='u_mass',processes=4)
-    u_mass=cm.get_coherence()
-    cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='c_v',processes=4)
-    c_v=cm.get_coherence()
-    cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='c_uci',processes=4)
-    c_uci=cm.get_coherence()
-    cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='c_npmi',processes=4)
-    c_npmi=cm.get_coherence()
+    lda.save(homedir+"/results/models/lda2000_topic"+str(i))
+    try:
+        cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='u_mass',processes=4)
+        u_mass=cm.get_coherence()
+    except:
+        u_mass=''
+    try:
+        cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='c_v',processes=4)
+        c_v=cm.get_coherence()
+    except:
+        c_v=''
+    try:
+        cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='c_uci',processes=4)
+        c_uci=cm.get_coherence()
+    except:
+        c_uci=''
+    try:
+        cm=CoherenceModel(model=lda,corpus=tfidf_corpus,texts=corpus,dictionary=dictionary,coherence='c_npmi',processes=4)
+        c_npmi=cm.get_coherence()
+    except:
+        c_npmi=''
     res.append((i,u_mass,c_v,c_uci,c_npmi))
 
-f=open(homedir+"/results/logs/lda200.csv",'w')
+f=open(homedir+"/results/logs/lda2000.csv",'w')
 wt=csv.writer(f)
 for r in res:
     wt.writerow(r)
