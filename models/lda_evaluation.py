@@ -142,13 +142,20 @@ dictionary=Dictionary([ncit_dict]);dictionary[0]
 model_name="MLPsparse_1hidden"
 model=get_model_S3(model_name)
 
-lda=AuthorTopicModel.load(homedir+"/results/models/lda2000_topic5")
-threshold=0.0
-volume=5
-while threshold<1.0:
-	alpha=0.0
-	while alpha<1.0:
-		P,R,F=test_on_doc_S3_atmodel(lda,model,volume,alpha,threshold)
-		print("%.3f,%.3f,%.3f,%.3f,%.3f"%(threshold,alpha,P,R,F))
-		alpha+=0.1
-	threshold+=0.1
+# topic_num=[5,10,20,25,40,50,100,200,250]
+topic_num=[5,10]
+
+for tn in topic_num:
+	lda=AuthorTopicModel.load(homedir+"/results/models/lda2000_topic"+str(tn))
+	threshold=0.0
+	volume=5
+	while threshold<1.0:
+		alpha=0.0
+		while alpha<1.0:
+			P,R,F=test_on_doc_S3_atmodel(lda,model,volume,alpha,threshold)
+			f=open(homedir+"/results/logs/lda_eval_topic"+str(tn),'a')
+			print("%.3f,%.3f,%.3f,%.3f,%.3f"%(threshold,alpha,P,R,F))
+			f.write("%.3f,%.3f,%.3f,%.3f,%.3f\n"%(threshold,alpha,P,R,F))
+			f.close
+			alpha+=0.1
+		threshold+=0.1
