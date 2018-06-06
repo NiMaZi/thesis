@@ -16,7 +16,7 @@ sourceBucket=s3.Bucket('workspace.scitodate.com')
 targetBucket=s3.Bucket('workspace.scitodate.com')
 
 def get_annotation(_inpath):
-    subprocess.call(['java','-jar',homedir+'/ner/NobleJar/NobleCoder-1.0.jar','-terminology','NCI_Thesaurus','-input',_inpath,'-output',homedir+'/thesiswork/disambiguation'+str(pid),'-search','best-match','-selectBestCandidates'])
+    subprocess.call(['java','-jar',homedir+'/ner/NobleJar/NobleCoder-1.0.jar','-terminology','OPB','-input',_inpath,'-output',homedir+'/thesiswork/disambiguation'+str(pid),'-search','best-match','-selectBestCandidates'])
     f=open(homedir+'/thesiswork/disambiguation'+str(pid)+'/RESULTS.tsv','r',encoding='utf-8')
     unamb=f.read()
     f.close()
@@ -41,7 +41,7 @@ def upload_to_S3(_inpath,_fname,_counter,_format):
     f=open(_inpath,"r",encoding='utf-8')
     data=f.read()
     f.close()
-    targetBucket.put_object(Body=data,Key="yalun/arxiv/"+_fname+str(_counter)+"."+_format)
+    targetBucket.put_object(Body=data,Key="yalun/arxiv/"+_fname+str(_counter)+"OPB."+_format)
 
 logf=open(homedir+"/results/logs/annotator_log_arxivtest.txt",'a')
 for i in range (start,end):
