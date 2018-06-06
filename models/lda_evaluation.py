@@ -10,6 +10,7 @@ from keras.callbacks import EarlyStopping
 
 from gensim.corpora import Dictionary
 from gensim.models import *
+homedir=os.environ['HOME']
 
 def get_bucket():
 	s3 = boto3.resource("s3")
@@ -17,7 +18,6 @@ def get_bucket():
 	return myBucket
 
 def load_sups():
-	homedir=os.environ['HOME']
 	f=open(homedir+"/results/ontology/ConCode2Vid.json",'r')
 	cc2vid=json.load(f)
 	f.close()
