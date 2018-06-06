@@ -149,6 +149,6 @@ while threshold<1.0:
 	alpha=0.0
 	while alpha<1.0:
 		P,R,F=test_on_doc_S3_atmodel(lda,model,volume,alpha,threshold)
-		print("%.3f,%.3f,%.3f,%.3f"%(threshold,alpha,P,R,F))
+		print("%.3f,%.3f,%.3f,%.3f,%.3f"%(threshold,alpha,P,R,F))
 		alpha+=0.1
 	threshold+=0.1
