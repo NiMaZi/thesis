@@ -39,7 +39,7 @@ def get_model_local(path):
 
 def test_on_doc_S3_atmodel(_lda,_model,_volume,_alpha=0.5,_threshold=0.0):
     bucket=get_bucket()
-    cc2vid,nul=load_sups()
+    cc2vid=load_sups()
     P_all=0.0
     R_all=0.0
     all_count=0.0
