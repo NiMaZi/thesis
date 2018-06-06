@@ -98,7 +98,7 @@ def test_on_doc_S3_atmodel(_lda,_model,_volume,_alpha=0.5,_threshold=0.0):
                 author_count+=1
             except:
                 pass
-        if a_num:
+        if author_count:
             author_vec=np.array(author_vec)/author_count
         refined_vec=list(_alpha*author_vec*(abs_vec.max()/author_vec.max())+(1-_alpha)*abs_vec)
         sample_list=[refined_vec+body_vec]
