@@ -84,22 +84,22 @@ def test_on_doc_S3_atmodel(_lda,_model,_volume,_alpha=0.5,_threshold=0.0):
         if not body_count:
             continue
         body_vec=list(np.array(body_vec)/body_count)
-        author_vec=[0.0 for ii in range(0,len(cc2vid))]
+        author_vec=np.array([0.0 for ii in range(0,len(cc2vid))])
         f=open(homedir+"/temp/tmp.json")
         authors=json.load(f)
         f.close()
-        author_count=0
+        author_count=0.0
         for author in authors:
             try:
                 b_topic=max(_lda.get_author_topics(author),key=lambda x:x[1])[0]
-                terms=_lda.get_topic_terms(b_topic,20)
+                terms=_lda.get_topic_terms(b_topic,len(cc2vid))
                 for term in terms:
                     author_vec[cc2vid[dictionary.id2token[term[0]]]]+=term[1]
-                author_count+=1
+                author_count+=1.0
             except:
                 pass
-        if author_count:
-            author_vec=np.array(author_vec)/author_count
+        if not author_count==0.0:
+            author_vec/=author_count
         refined_vec=list(_alpha*author_vec*(abs_vec.max()/author_vec.max())+(1-_alpha)*abs_vec)
         sample_list=[refined_vec+body_vec]
         N_test=np.array(sample_list)
