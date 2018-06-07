@@ -100,8 +100,8 @@ def test_on_doc_S3_atmodel(_lda,_model,_volume,_alpha=0.5,_threshold=0.0):
                 pass
         if not author_count==0.0:
             author_vec/=author_count
-        refined_vec=list(_alpha*author_vec*(abs_vec.max()/author_vec.max())+(1-_alpha)*abs_vec)
-        sample_list=[refined_vec+body_vec]
+        refined_vec=list(_alpha*author_vec+(1-_alpha)*abs_vec)
+        sample_list=[list(abs_vec)+body_vec]
         N_test=np.array(sample_list)
         X_test=N_test[:,:len(cc2vid)]
         Y_test=np.clip(np.ceil(N_test[:,len(cc2vid):])-np.ceil(X_test),0.0,1.0)[0].astype(int)
