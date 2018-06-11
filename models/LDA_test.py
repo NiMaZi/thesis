@@ -15,7 +15,7 @@ prefix='http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#'
 ncit_dict=[k.split('#')[1] for k in c2n.keys()]
 dictionary=Dictionary([ncit_dict]);dictionary[0]
 dictionary.save(homedir+"/results/models/lda_dict")
-tfidf=TfidfModel.load(homedir+"/models/tfidf_model")
+tfidf=TfidfModel.load(homedir+"/results/models/tfidf_model")
 
 for i in [5,10,20,25,40,50,100,200,250,400,500,1000]:
     lda=AuthorTopicModel(id2word=dictionary.id2token,num_topics=i,eval_every=False)
