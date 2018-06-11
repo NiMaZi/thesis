@@ -32,7 +32,7 @@ for i in [5,10,20,25,40,50,100,200,250,400,500,1000]:
         for k in _d2a.keys():
             d2a[int(k)]=_d2a[k]
         lda.update(corpus=tfidf_corpus,doc2author=d2a)
-        f.open(homedir+"/results/logs/lda_training_log.txt",'a')
-        f.write("finish training %d-%d\n"%(i,j))
-        f.close()
+        lf=open(homedir+"/results/logs/lda_training_log.txt",'a')
+        lf.write("finish training %d-%d\n"%(i,j))
+        lf.close()
     lda.save(homedir+"/results/models/lda20000_topic"+str(i))
