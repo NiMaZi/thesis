@@ -17,7 +17,7 @@ dictionary=Dictionary([ncit_dict]);dictionary[0]
 dictionary.save(homedir+"/results/models/lda_dict")
 tfidf=TfidfModel.load(homedir+"/results/models/tfidf_model")
 
-for i in [5,10,20,25,40,50,100,200,250,400,500,1000]:
+for i in [2,3,4]:
     lda=AuthorTopicModel(id2word=dictionary.id2token,num_topics=i,eval_every=False)
     f=open(homedir+"/thesiswork/source/corpus/lda_doc_2k.json",'r')
     _corpus=json.load(f)
