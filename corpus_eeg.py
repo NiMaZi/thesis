@@ -5,6 +5,7 @@ import json
 import jsonlines
 import csv
 import subprocess
+from time import time
 
 pid=int(sys.argv[1])
 start=int(sys.argv[2])
@@ -16,7 +17,7 @@ sourceBucket=s3.Bucket('workspace.scitodate.com')
 targetBucket=s3.Bucket('workspace.scitodate.com')
 
 def get_annotation(_inpath):
-    subprocess.call(['java','-jar',homedir+'/ner/NobleJar/NobleCoder-1.0.jar','-terminology','OPB','-input',_inpath,'-output',homedir+'/thesiswork/disambiguation'+str(pid),'-search','best-match','-selectBestCandidates'])
+    subprocess.call(['java','-jar',homedir+'/ner/NobleJar/NobleCoder-1.0.jar','-terminology','NCI_Thesaurus','-input',_inpath,'-output',homedir+'/thesiswork/disambiguation'+str(pid),'-search','best-match','-selectBestCandidates'])
     f=open(homedir+'/thesiswork/disambiguation'+str(pid)+'/RESULTS.tsv','r',encoding='utf-8')
     unamb=f.read()
     f.close()
@@ -41,26 +42,32 @@ def upload_to_S3(_inpath,_fname,_counter,_format):
     f=open(_inpath,"r",encoding='utf-8')
     data=f.read()
     f.close()
-    targetBucket.put_object(Body=data,Key="yalun/arxiv/"+_fname+str(_counter)+"OPB."+_format)
+    targetBucket.put_object(Body=data,Key="yalun/arxiv/arxiv_1805/"+_fname+str(_counter)+_format)
 
 logf=open(homedir+"/results/logs/annotator_log_arxivtest.txt",'a')
+ts=0.0
 for i in range (start,end):
     try:
-        sourceBucket.download_file("yalun/arxiv/abs"+str(i)+".txt",homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt")
+        t1=time()
+        sourceBucket.download_file("yalun/arxiv/arxiv_1805/abs"+str(i)+".txt",homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt")
         txt_path=homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt"
         path=get_annotation(txt_path)
         upload_to_S3(path,"abs",i,"csv")
 
-        sourceBucket.download_file("yalun/arxiv/body"+str(i)+".txt",homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt")
+        sourceBucket.download_file("yalun/arxiv/arxiv_1805/body"+str(i)+".txt",homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt")
         txt_path=homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt"
         path=get_annotation(txt_path)
         upload_to_S3(path,"body",i,"csv")
 
-        sourceBucket.download_file("yalun/arxiv/title"+str(i)+".txt",homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt")
+        sourceBucket.download_file("yalun/arxiv/arxiv_1805/title"+str(i)+".txt",homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt")
         txt_path=homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt"
         path=get_annotation(txt_path)
         upload_to_S3(path,"title",i,"csv")
         logf.write("process "+str(pid)+", source file "+str(i)+"\n")
+        t2=time()
     except:
         pass
+    ts+=(t2-t1)
 logf.close()
+ts/=(end-start)
+print(ts)
