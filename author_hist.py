@@ -12,7 +12,7 @@ myBucket=s3.Bucket('workspace.scitodate.com')
 
 author_hist={}
 
-for i in range(0,20000):#26294
+for i in range(0,10000):#26294
     try:
         myBucket.download_file("yalun/Dependence/body"+str(i)+".csv",homedir+"/temp/tmpcsv.csv")
     except:
@@ -54,6 +54,6 @@ for author in author_hist.keys():
 for author in author_hist.keys():
     author_hist[author][0]=list(author_hist[author][0])
 
-f=open(homedir+"/results/statistics/authorinfo_dependence.json",'w')
+f=open(homedir+"/results/statistics/authorinfo_10k_dependence.json",'w')
 json.dump(author_hist,f)
 f.close()
