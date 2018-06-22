@@ -11,6 +11,10 @@ homedir=os.environ['HOME']
 import csv
 import json
 elastic_ip_address=sys.argv[1]
+term=sys.argv[2]
+S3_key="yalun/experiment_generic/"
+folder_term=term.replace(" ","_")+"/"
+print(term,folder_term)
 subprocess.call(command='./tunnel_elastic.bash '+elastic_ip_address)
 es=Elasticsearch(['localhost:9200'])
 results=scan(es,
@@ -20,7 +24,7 @@ results=scan(es,
                 "must": [
                     {"exists": {"field":"abstract"}},
                     {"exists": {"field":"body"}},
-                    {"match_phrase": {"body": "optical tweezer"}}
+                    {"match_phrase": {"body":{"query":term,"slop":5}}}
                 ],
             }
         }
@@ -30,20 +34,16 @@ results=scan(es,
 paper_id_list=[]
 for i,result in enumerate(results):
     paper_id_list.append(result['_id'])
-    print(str(i)+"\r",end='')
-#     if i>=5000:
-#         break
 paper_id_list=list(set(paper_id_list))
 for t in range(0,10):
     random.shuffle(paper_id_list)
-f=open(homedir+"/optical_tweezer.json",'w')
+f=open(homedir+"/temp/index.json",'w')
 json.dump(paper_id_list,f)
-# paper_id_list=json.load(f)
 f.close()
-f=open(homedir+"/optical_tweezer.json",'r')
+f=open(homedir+"/temp/index.json",'r')
 d=f.read()
 f.close()
-myBucket.put_object(Body=d,Key="yalun/optical_tweezers/index.json")
+myBucket.put_object(Body=d,Key=S3_key+folder_term+"index.json")
 for i,a in enumerate(paper_id_list):
     results=scan(es,
         query={
@@ -66,7 +66,7 @@ for i,a in enumerate(paper_id_list):
             f=open("tmp.txt",'r',encoding='utf-8')
             data=f.read()
             f.close()
-            myBucket.put_object(Body=data,Key="yalun/optical_tweezers/"+a+"_abs.txt")
+            myBucket.put_object(Body=data,Key=S3_key+folder_term+a+"_abs.txt")
 
             body=result['_source']['body']
 
@@ -76,7 +76,7 @@ for i,a in enumerate(paper_id_list):
             f=open("tmp.txt",'r',encoding='utf-8')
             data=f.read()
             f.close()
-            myBucket.put_object(Body=data,Key="yalun/optical_tweezers/"+a+"_body.txt")
+            myBucket.put_object(Body=data,Key=S3_key+folder_term+a+"_body.txt")
 
             title=result['_source']['title']
 
@@ -86,7 +86,7 @@ for i,a in enumerate(paper_id_list):
             f=open("tmp.txt",'r',encoding='utf-8')
             data=f.read()
             f.close()
-            myBucket.put_object(Body=data,Key="yalun/optical_tweezers/"+a+"_title.txt")
+            myBucket.put_object(Body=data,Key=S3_key+folder_term+a+"_title.txt")
 
             authors=result['_source']['authors']
 
@@ -96,8 +96,7 @@ for i,a in enumerate(paper_id_list):
             f=open("tmp.json",'r',encoding='utf-8')
             data=f.read()
             f.close()
-            myBucket.put_object(Body=data,Key="yalun/optical_tweezers/"+a+"_authors.json")
+            myBucket.put_object(Body=data,Key=S3_key+folder_term+a+"_authors.json")
 
-            print(str(i)+","+a+"\r",end='')
         except:
             pass
