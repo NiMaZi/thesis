@@ -7,14 +7,15 @@ import csv
 import subprocess
 
 pid=int(sys.argv[1])
-start=int(sys.argv[2])
-end=int(sys.argv[3])
+term=sys.argv[2]
+# start=int(sys.argv[2])
+# end=int(sys.argv[3])
 
 homedir=os.environ['HOME']
 s3 = boto3.resource("s3")
 sourceBucket=s3.Bucket('workspace.scitodate.com')
 targetBucket=s3.Bucket('workspace.scitodate.com')
-obj_prefix="yalun/optical_tweezers/"
+obj_prefix="yalun/experiment_generic/"+term+"/"
 
 def get_annotation(_inpath):
     subprocess.call(['java','-jar',homedir+'/ner/NobleJar/NobleCoder-1.0.jar','-terminology','NCI_Thesaurus','-input',_inpath,'-output',homedir+'/thesiswork/disambiguation'+str(pid),'-search','best-match','-selectBestCandidates'])
@@ -44,15 +45,17 @@ def upload_to_S3(_inpath,_key):
     f.close()
     targetBucket.put_object(Body=data,Key=_key)
 
-def get_index():
-    sourceBucket.download_file(obj_prefix+"index.json",homedir+"/temp/doi_index.json")
+def get_index(_pid):
+    sourceBucket.download_file(obj_prefix+"index.json",homedir+"/temp/doi_index"+str(_pid)+".json")
     f=open(homedir+"/temp/doi_index.json",'r',encoding='utf-8')
     doi_index=json.load(f)
     f.close()
     return doi_index
 
-doi_index=get_index()
-logf=open(homedir+"/results/logs/annotator_log_tweezers.txt",'a')
+doi_index=get_index(pid)
+start=0
+end=len(doi_index)
+logf=open(homedir+"/results/logs/annotator_log_experiment_generic.txt",'a')
 for i in range (start,end):
     try:
         sourceBucket.download_file(obj_prefix+doi_index[i]+"_abs.txt",homedir+"/thesiswork/source/papers/tmp"+str(pid)+".txt")
