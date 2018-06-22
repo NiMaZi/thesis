@@ -16,7 +16,7 @@ S3_key="yalun/experiment_generic/"
 query_term=term.replace("_"," ")
 folder_term=term+"/"
 print(term,query_term,folder_term)
-subprocess.call(command='./tunnel_elastic.bash '+elastic_ip_address)
+subprocess.call(['./tunnel_elastic.bash '+elastic_ip_address])
 es=Elasticsearch(['localhost:9200'])
 results=scan(es,
     query={
