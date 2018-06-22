@@ -47,7 +47,7 @@ def upload_to_S3(_inpath,_key):
 
 def get_index(_pid):
     sourceBucket.download_file(obj_prefix+"index.json",homedir+"/temp/doi_index"+str(_pid)+".json")
-    f=open(homedir+"/temp/doi_index.json",'r',encoding='utf-8')
+    f=open(homedir+"/temp/doi_index"+str(_pid)+".json",'r',encoding='utf-8')
     doi_index=json.load(f)
     f.close()
     return doi_index
