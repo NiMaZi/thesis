@@ -13,8 +13,9 @@ import json
 elastic_ip_address=sys.argv[1]
 term=sys.argv[2]
 S3_key="yalun/experiment_generic/"
-folder_term=term.replace(" ","_")+"/"
-print(term,folder_term)
+query_term=term.replace("_"," ")
+folder_term=term+"/"
+print(term,query_term,folder_term)
 subprocess.call(command='./tunnel_elastic.bash '+elastic_ip_address)
 es=Elasticsearch(['localhost:9200'])
 results=scan(es,
@@ -24,7 +25,7 @@ results=scan(es,
                 "must": [
                     {"exists": {"field":"abstract"}},
                     {"exists": {"field":"body"}},
-                    {"match_phrase": {"body":{"query":term,"slop":5}}}
+                    {"match_phrase": {"body":{"query":query_term,"slop":5}}}
                 ],
             }
         }
