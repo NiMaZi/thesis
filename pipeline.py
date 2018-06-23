@@ -34,6 +34,8 @@ results=scan(es,
 paper_id_list=[]
 for i,result in enumerate(results):
     paper_id_list.append(result['_id'])
+    if i>10000:
+    	break
 paper_id_list=list(set(paper_id_list))
 for t in range(0,10):
     random.shuffle(paper_id_list)
