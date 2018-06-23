@@ -15,7 +15,7 @@ term=sys.argv[2]
 S3_key="yalun/experiment_generic/"
 query_term=term.replace("_"," ")
 folder_term=term+"/"
-# subprocess.call(['bash',homedir+'/tunnel_elastic.bash',elastic_ip_address])
+subprocess.call(['bash',homedir+'/tunnel_elastic.bash',elastic_ip_address])
 es=Elasticsearch(['localhost:9200'])
 results=scan(es,
     query={
