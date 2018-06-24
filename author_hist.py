@@ -4,6 +4,7 @@ sourceBucket=s3.Bucket('papers.scitodate.com')
 
 import os
 homedir=os.environ['HOME']
+import sys
 import json
 import csv
 import time
@@ -11,14 +12,15 @@ import numpy as np
 myBucket=s3.Bucket('workspace.scitodate.com')
 
 author_hist={}
+source=sys.argv[1]
 
 for i in range(0,10000):#26294
     try:
-        myBucket.download_file("yalun/Dependence/body"+str(i)+".csv",homedir+"/temp/tmpcsv.csv")
+        myBucket.download_file("yalun/"+source+"/body"+str(i)+".csv",homedir+"/temp/tmpcsv.csv")
     except:
         continue
     try:
-        myBucket.download_file("yalun/Dependence/authors"+str(i)+".json",homedir+"/temp/tmpjson.json")
+        myBucket.download_file("yalun/"+source+"/authors"+str(i)+".json",homedir+"/temp/tmpjson.json")
     except:
         continue
     body_vec=np.array([0.0 for i in range(0,5)])
@@ -49,11 +51,11 @@ for i in range(0,10000):#26294
             author_hist[author]=[body_vec,1.0]
 
 for author in author_hist.keys():
-    if not np.sum(author_hist[author][0])==0.0:
-        author_hist[author][0]/=np.sum(author_hist[author][0])
+    if not author_hist[author][1]==0.0:
+        author_hist[author][0]/=author_hist[author][1]
 for author in author_hist.keys():
     author_hist[author][0]=list(author_hist[author][0])
 
-f=open(homedir+"/results/statistics/authorinfo_10k_dependence.json",'w')
+f=open(homedir+"/results/statistics/authorinfo_10k_"+source+".json",'w')
 json.dump(author_hist,f)
 f.close()
