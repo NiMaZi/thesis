@@ -14,16 +14,16 @@ author_hist={}
 
 for i in range(0,10000):#26294
     try:
-        myBucket.download_file("yalun/Microscopy/body"+str(i)+".csv",homedir+"/temp/tmpcsv.csv")
+        myBucket.download_file("yalun/Microscopy/body"+str(i)+".csv",homedir+"/temp/tmpcsvmic.csv")
     except:
         continue
     try:
-        myBucket.download_file("yalun/Microscopy/authors"+str(i)+".json",homedir+"/temp/tmpjson.json")
+        myBucket.download_file("yalun/Microscopy/authors"+str(i)+".json",homedir+"/temp/tmpjsonmic.json")
     except:
         continue
     body_vec=np.array([0.0 for i in range(0,5)])
     body_count=0.0
-    with open(homedir+"/temp/tmpcsv.csv",'r',encoding='utf-8') as cf:
+    with open(homedir+"/temp/tmpcsvmic.csv",'r',encoding='utf-8') as cf:
         rd=csv.reader(cf)
         for item in rd:
             if item[0]=='Mention':
@@ -38,7 +38,7 @@ for i in range(0,10000):#26294
                 body_vec[3]=1.0
             if item[1]=='C17753' or item[1]=='C122390' or item[1]=='C116477' or item[1]=='C116481': #Confocal
                 body_vec[4]=1.0
-    f=open(homedir+"/temp/tmpjson.json",'r',encoding='utf-8')
+    f=open(homedir+"/temp/tmpjsonmic.json",'r',encoding='utf-8')
     authors=json.load(f)
     f.close()
     for author in authors:

@@ -14,16 +14,16 @@ author_hist={}
 
 for i in range(0,10000):#26294
     try:
-        myBucket.download_file("yalun/Dependence/body"+str(i)+".csv",homedir+"/temp/tmpcsv.csv")
+        myBucket.download_file("yalun/Dependence/body"+str(i)+".csv",homedir+"/temp/tmpcsvdep.csv")
     except:
         continue
     try:
-        myBucket.download_file("yalun/Dependence/authors"+str(i)+".json",homedir+"/temp/tmpjson.json")
+        myBucket.download_file("yalun/Dependence/authors"+str(i)+".json",homedir+"/temp/tmpjsondep.json")
     except:
         continue
     body_vec=np.array([0.0 for i in range(0,5)])
     body_count=0.0
-    with open(homedir+"/temp/tmpcsv.csv",'r',encoding='utf-8') as cf:
+    with open(homedir+"/temp/tmpcsvdep.csv",'r',encoding='utf-8') as cf:
         rd=csv.reader(cf)
         for item in rd:
             if item[0]=='Mention':
@@ -38,7 +38,7 @@ for i in range(0,10000):#26294
                 body_vec[3]=1.0
             if item[1]=='C70989' or item[1]=='C54203' or item[1]=='C15985':	#Nicotine
                 body_vec[4]=1.0
-    f=open(homedir+"/temp/tmpjson.json",'r',encoding='utf-8')
+    f=open(homedir+"/temp/tmpjsondep.json",'r',encoding='utf-8')
     authors=json.load(f)
     f.close()
     for author in authors:
