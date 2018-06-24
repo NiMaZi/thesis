@@ -4,7 +4,6 @@ sourceBucket=s3.Bucket('papers.scitodate.com')
 
 import os
 homedir=os.environ['HOME']
-import sys
 import json
 import csv
 import time
@@ -12,15 +11,14 @@ import numpy as np
 myBucket=s3.Bucket('workspace.scitodate.com')
 
 author_hist={}
-source=sys.argv[1]
 
 for i in range(0,10000):#26294
     try:
-        myBucket.download_file("yalun/"+source+"/body"+str(i)+".csv",homedir+"/temp/tmpcsv.csv")
+        myBucket.download_file("yalun/Microscopy/body"+str(i)+".csv",homedir+"/temp/tmpcsv.csv")
     except:
         continue
     try:
-        myBucket.download_file("yalun/"+source+"/authors"+str(i)+".json",homedir+"/temp/tmpjson.json")
+        myBucket.download_file("yalun/Microscopy/authors"+str(i)+".json",homedir+"/temp/tmpjson.json")
     except:
         continue
     body_vec=np.array([0.0 for i in range(0,5)])
@@ -30,15 +28,15 @@ for i in range(0,10000):#26294
         for item in rd:
             if item[0]=='Mention':
                 continue
-            if item[1]=='C93040':	#Alcohol
+            if item[1]=='C78814' or item[1]=='C78815': #SEM
                 body_vec[0]=1.0
-            if item[1]=='C35386' or item[1]=='C35387' or item[1]=='C34445':	#Cannabis
+            if item[1]=='C78860' or item[1]=='C78813':  #TEM
                 body_vec[1]=1.0
-            if item[1]=='C34492' or item[1]=='C35389' or item[1]=='C35388':	#Cocaine
+            if item[1]=='C17374':   #STM
                 body_vec[2]=1.0
-            if item[1]=='C34694':	#Heroin
+            if item[1]=='C78804':   #AFM
                 body_vec[3]=1.0
-            if item[1]=='C70989' or item[1]=='C54203' or item[1]=='C15985':	#Nicotine
+            if item[1]=='C17753' or item[1]=='C122390' or item[1]=='C116477' or item[1]=='C116481': #Confocal
                 body_vec[4]=1.0
     f=open(homedir+"/temp/tmpjson.json",'r',encoding='utf-8')
     authors=json.load(f)
@@ -56,6 +54,6 @@ for author in author_hist.keys():
 for author in author_hist.keys():
     author_hist[author][0]=list(author_hist[author][0])
 
-f=open(homedir+"/results/statistics/authorinfo_10k_"+source+".json",'w')
+f=open(homedir+"/results/statistics/authorhist_microscopy.json",'w')
 json.dump(author_hist,f)
 f.close()
