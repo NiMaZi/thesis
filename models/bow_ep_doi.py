@@ -137,6 +137,7 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 
 if __name__=="__main__":
 	start=time()
+	homedir=os.environ['HOME']
 	model=build_model()
 	# model=get_model_local("/home/yzg550/temp/tmp_model1.h5")
 	source_key=["experiment_generic/safety_cabinet/","experiment_generic/freeze_dryer/","experiment_generic/cold_trap/","experiment_generic/vacuum_concentrator/","experiment_generic/cooling_bath/","experiment_generic/centrifuge/","annotated_papers_with_txt_new2"]
