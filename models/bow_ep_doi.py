@@ -45,8 +45,9 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 		index=json.load(f)
 		f.close()
 		doi_indices.append(index)
-	for doi_index in doi_indices:
-		print(len(doi_index))
+	doi_ratio=np.array([float(len(index)) for index in doi_indices])
+	doi_ratio/=np.min(doi_ratio)
+	print(doi_ratio)
 	sample_list=[]
 	batch_count=_bcount
 	# for i in range(0,_volume):
@@ -204,5 +205,5 @@ if __name__=="__main__":
 	# model=get_model_local("/home/yzg550/temp/tmp_model1.h5")
 	source_key=["experiment_generic/safety_cabinet/","experiment_generic/freeze_dryer/","experiment_generic/cold_trap/","experiment_generic/vacuum_concentrator/","experiment_generic/cooling_bath/","experiment_generic/centrifuge/","annotated_papers_with_txt_new2"]
 	model,bcount=train_on_batch_S3(model,source_key,5000,0,272,256)
-	model,bcount=train_on_batch_S3(model,source_key,5000,0,1088,256)
-	model,bcount=train_on_batch_S3(model,source_key,5000,0,1088,1024)
+	# model,bcount=train_on_batch_S3(model,source_key,5000,0,1088,256)
+	# model,bcount=train_on_batch_S3(model,source_key,5000,0,1088,1024)
