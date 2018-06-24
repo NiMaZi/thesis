@@ -15,7 +15,7 @@ author_hist=json.load(f)
 f.close()
 
 res=[]
-for i in range(0,100):
+for i in range(0,10000):
     try:
         myBucket.download_file("yalun/Dependence/body"+str(i)+".csv",homedir+"/temp/tmpcsv.csv")
     except:
