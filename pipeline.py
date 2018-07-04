@@ -24,7 +24,7 @@ results=scan(es,
                 "must": [
                     {"exists": {"field":"abstract"}},
                     {"exists": {"field":"body"}},
-                    {"match_phrase": {"body":{"query":query_term,"slop":5}}}
+                    {"match_phrase": {"body":{"query":query_term}}}
                 ],
             }
         }
