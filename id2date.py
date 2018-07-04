@@ -16,7 +16,7 @@ mybucket=s3.Bucket("workspace.scitodate.com")
 s3key=sys.argv[1]
 
 id2date={}
-for i in range(0,100):
+for i in range(0,15000):
     try:
         mybucket.download_file("yalun/"+s3key+"/abs"+str(i)+".txt",homedir+"/temp/tmptxt"+s3key+".txt")
     except:
