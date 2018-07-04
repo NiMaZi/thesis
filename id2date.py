@@ -13,13 +13,15 @@ es=Elasticsearch(['localhost:9200'])
 s3 = boto3.resource("s3")
 mybucket=s3.Bucket("workspace.scitodate.com")
 
+s3key=sys.argv[1]
+
 id2date={}
 for i in range(0,100):
     try:
-        mybucket.download_file("yalun/Dependence/abs"+str(i)+".txt",homedir+"/temp/tmptxt0.txt")
+        mybucket.download_file("yalun/"+s3key+"/abs"+str(i)+".txt",homedir+"/temp/tmptxt"+s3key+".txt")
     except:
         continue
-    f=open(homedir+"/temp/tmptxt0.txt",'r',encoding='utf-8')
+    f=open(homedir+"/temp/tmptxt"+s3key+".txt",'r',encoding='utf-8')
     abstract=f.read().split(",")[0]
     f.close()
     results=scan(es,
@@ -41,10 +43,10 @@ for i in range(0,100):
             except:
                 break
 
-f=open(homedir+"/temp/id2date0.json",'w')
+f=open(homedir+"/temp/id2date"+s3key+".json",'w')
 json.dump(id2date,f)
 f.close()
-f=open(homedir+"/temp/id2date0.json",'rb')
+f=open(homedir+"/temp/id2date"+s3key+".json",'rb')
 d=f.read()
 f.close()
-mybucket.put_object(Body=d,Key="yalun/Dependence/id2date.json")
+mybucket.put_object(Body=d,Key="yalun/"+s3key+"/id2date.json")
