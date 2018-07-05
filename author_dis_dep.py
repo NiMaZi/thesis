@@ -14,6 +14,9 @@ f=open(homedir+"/results/statistics/authorhist_dependence.json",'r',encoding='ut
 author_hist=json.load(f)
 f.close()
 
+def cos_sim(a,b):
+    return np.sum(a*b)/(np.linalg.norm(a)*np.linalg.norm(b))
+
 res=[]
 for i in range(0,10000):
     try:
@@ -50,7 +53,7 @@ for i in range(0,10000):
             ahs.append(author_hist[author][0])
     if not all([ah==ahs[0] for ah in ahs]):
         for ah in ahs:
-            dis=np.linalg.norm(body_vec-np.array(ah))
+            dis=cos_sim(ah,body_vec)
             top=max(ah)
             cut=max(ah)-min(ah)
             var=np.var(np.array(ah))
