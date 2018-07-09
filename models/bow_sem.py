@@ -16,10 +16,13 @@ def get_bucket():
 
 def load_sups():
 	homedir=os.environ['HOME']
+	f=open(homedir+"/results/ontology/ConCode2Vid.json",'r')
+	cc2vid=json.load(f)
+	f.close()
 	f=open(homedir+"/results/ontology/code2svec.json",'r')
 	c2sv=json.load(f)
 	f.close()
-	return c2sv
+	return cc2vid,c2sv
 
 def build_model(_input_dim=133609,_hidden_dim=512,_drate=0.5):
 	model=Sequential()
@@ -35,11 +38,11 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 	early_stopping_val=EarlyStopping(monitor='val_loss',patience=2)
 	homedir=os.environ['HOME']
 	bucket=get_bucket()
-	c2sv=load_sups()
+	c2sv=cc2vid,load_sups()
 	sample_list=[]
 	batch_count=_bcount
 	for i in range(0,_volume):
-		abs_vec=np.array([0.0 for i in range(0,129)])
+		abs_vec=np.array([0.0 for i in range(0,len(cc2vid))])
 		abs_count=0.0
 		try:
 			bucket.download_file("yalun/"+_source+"/abs"+str(i)+".csv",homedir+"/temp/tmp.csv")
@@ -58,7 +61,7 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 		if not abs_count:
 			continue
 		abs_vec=list(abs_vec/np.sum(abs_vec))
-		body_vec=np.array([0.0 for i in range(0,129)])
+		body_vec=np.array([0.0 for i in range(0,len(c2sv))])
 		body_count=0.0
 		try:
 			bucket.download_file("yalun/"+_source+"/body"+str(i)+".csv",homedir+"/temp/tmp.csv")
@@ -76,12 +79,12 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 					pass
 		if not body_count:
 			continue
-		body_vec=list(np.array(body_vec)/body_count)
+		body_vec=list(body_vec/np.sum(body_vec))
 		sample_list.append(abs_vec+body_vec)
 		if len(sample_list)>=_batch:
 			N_all=np.array(sample_list)
-			X_train=N_all[:,:len(c2sv)]
-			Y_train=np.ceil(N_all[:,len(c2sv):])
+			X_train=N_all[:,:len(cc2vid)]
+			Y_train=np.ceil(N_all[:,len(cc2vid):])
 			_model.fit(X_train,Y_train,batch_size=_mbatch,verbose=0,epochs=_epochs,validation_split=1.0/17.0,callbacks=[early_stopping,early_stopping_val])
 			try:
 				os.remove(homedir+"/temp/tmp_model.h5")
@@ -99,8 +102,8 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 			sample_list=[]
 	if len(sample_list):
 		N_all=np.array(sample_list)
-		X_train=N_all[:,:len(c2sv)]
-		Y_train=np.ceil(N_all[:,len(c2sv):])
+		X_train=N_all[:,:len(cc2vid)]
+		Y_train=np.ceil(N_all[:,len(cc2vid):])
 		_model.fit(X_train,Y_train,batch_size=_mbatch,verbose=0,epochs=_epochs,validation_split=1.0/17.0,callbacks=[early_stopping,early_stopping_val])
 		try:
 			os.remove(homedir+"/temp/tmp_model.h5")
