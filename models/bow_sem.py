@@ -38,7 +38,7 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 	early_stopping_val=EarlyStopping(monitor='val_loss',patience=2)
 	homedir=os.environ['HOME']
 	bucket=get_bucket()
-	c2sv=cc2vid,load_sups()
+	cc2vid,c2sv=load_sups()
 	sample_list=[]
 	batch_count=_bcount
 	for i in range(0,_volume):
