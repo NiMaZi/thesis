@@ -80,8 +80,8 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 		sample_list.append(abs_vec+body_vec)
 		if len(sample_list)>=_batch:
 			N_all=np.array(sample_list)
-			X_train=N_all[:,:len(cc2vid)]
-			Y_train=np.clip(np.ceil(N_all[:,len(cc2vid):])-np.ceil(X_train),0.0,1.0)
+			X_train=N_all[:,:len(c2sv)]
+			Y_train=np.clip(np.ceil(N_all[:,len(c2sv):])-np.ceil(X_train),0.0,1.0)
 			_model.fit(X_train,Y_train,batch_size=_mbatch,verbose=0,epochs=_epochs,validation_split=1.0/17.0,callbacks=[early_stopping,early_stopping_val])
 			try:
 				os.remove(homedir+"/temp/tmp_model.h5")
@@ -99,8 +99,8 @@ def train_on_batch_S3(_model,_source,_volume,_bcount,_batch,_mbatch,_epochs=5):
 			sample_list=[]
 	if len(sample_list):
 		N_all=np.array(sample_list)
-		X_train=N_all[:,:len(cc2vid)]
-		Y_train=np.clip(np.ceil(N_all[:,len(cc2vid):])-np.ceil(X_train),0.0,1.0)
+		X_train=N_all[:,:len(c2sv)]
+		Y_train=np.clip(np.ceil(N_all[:,len(c2sv):])-np.ceil(X_train),0.0,1.0)
 		_model.fit(X_train,Y_train,batch_size=_mbatch,verbose=0,epochs=_epochs,validation_split=1.0/17.0,callbacks=[early_stopping,early_stopping_val])
 		try:
 			os.remove(homedir+"/temp/tmp_model.h5")
